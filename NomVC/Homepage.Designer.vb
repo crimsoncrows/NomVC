@@ -23,34 +23,53 @@ Partial Class Homepage
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle31 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle32 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle33 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle34 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle35 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle36 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle37 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle38 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle39 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle40 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Guna2ControlBox2 = New Guna.UI2.WinForms.Guna2ControlBox()
+        Me.btn_Close = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.lblIS = New System.Windows.Forms.Label()
         Me.lblNomVC = New System.Windows.Forms.Label()
         Me.Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         Me.tabDashboard = New System.Windows.Forms.TabPage()
+        Me.Label87 = New System.Windows.Forms.Label()
+        Me.Label86 = New System.Windows.Forms.Label()
+        Me.Label70 = New System.Windows.Forms.Label()
+        Me.Label85 = New System.Windows.Forms.Label()
+        Me.Guna2DataGridView5 = New Guna.UI2.WinForms.Guna2DataGridView()
+        Me.servicePet = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.serviceProc = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.servicePrice = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label67 = New System.Windows.Forms.Label()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.Label69 = New System.Windows.Forms.Label()
         Me.tabAddRec = New System.Windows.Forms.TabPage()
         Me.pnlRecord = New Guna.UI2.WinForms.Guna2Panel()
+        Me.chkHasOwner = New System.Windows.Forms.CheckBox()
+        Me.txtOwnerID = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtPetID = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.btnClearRec = New Guna.UI2.WinForms.Guna2Button()
         Me.btnAddRec = New Guna.UI2.WinForms.Guna2Button()
         Me.chkNoVisit = New System.Windows.Forms.CheckBox()
         Me.lblNextVisit = New System.Windows.Forms.Label()
@@ -79,6 +98,21 @@ Partial Class Homepage
         Me.txtOwnerName = New Guna.UI2.WinForms.Guna2TextBox()
         Me.lblAdd = New System.Windows.Forms.Label()
         Me.tabOwners = New System.Windows.Forms.TabPage()
+        Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.grpDetailsOwner = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.pnlDetails = New Guna.UI2.WinForms.Guna2Panel()
+        Me.lblAddressVal = New System.Windows.Forms.Label()
+        Me.lblSexVal = New System.Windows.Forms.Label()
+        Me.lblAgeVal = New System.Windows.Forms.Label()
+        Me.lblNameVal = New System.Windows.Forms.Label()
+        Me.boxPetsList = New System.Windows.Forms.ListBox()
+        Me.lblDetail5 = New System.Windows.Forms.Label()
+        Me.lblDetail4 = New System.Windows.Forms.Label()
+        Me.lblDetail3 = New System.Windows.Forms.Label()
+        Me.lblDetail2 = New System.Windows.Forms.Label()
+        Me.lblDetail1 = New System.Windows.Forms.Label()
+        Me.btnSearchOwner = New Guna.UI2.WinForms.Guna2Button()
+        Me.txtSearchOwner = New Guna.UI2.WinForms.Guna2TextBox()
         Me.tblOwners = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.ownerID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ownerName = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -86,27 +120,16 @@ Partial Class Homepage
         Me.ownerSex = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ownerAddress = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tabPets = New System.Windows.Forms.TabPage()
-        Me.btnClearRec = New Guna.UI2.WinForms.Guna2Button()
-        Me.txtSearchOwner = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.btnSearchOwner = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.grpDetailsOwner = New Guna.UI2.WinForms.Guna2GroupBox()
-        Me.pnlDetails = New Guna.UI2.WinForms.Guna2Panel()
-        Me.lblDetail1 = New System.Windows.Forms.Label()
-        Me.lblDetail2 = New System.Windows.Forms.Label()
-        Me.lblDetail3 = New System.Windows.Forms.Label()
-        Me.lblDetail4 = New System.Windows.Forms.Label()
-        Me.lblDetail5 = New System.Windows.Forms.Label()
-        Me.boxPetsList = New System.Windows.Forms.ListBox()
-        Me.lblAddressVal = New System.Windows.Forms.Label()
-        Me.lblSexVal = New System.Windows.Forms.Label()
-        Me.lblAgeVal = New System.Windows.Forms.Label()
-        Me.lblNameVal = New System.Windows.Forms.Label()
-        Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2DataGridView2 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Guna2GroupBox2 = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
@@ -115,14 +138,9 @@ Partial Class Homepage
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.Label35 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2DataGridView2 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.petID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.petName = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.petOwner = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -130,27 +148,19 @@ Partial Class Homepage
         Me.petVac = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.petVisit = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.tabApps = New System.Windows.Forms.TabPage()
-        Me.tabPay = New System.Windows.Forms.TabPage()
         Me.Guna2TabControl2 = New Guna.UI2.WinForms.Guna2TabControl()
         Me.tabcreateApp = New System.Windows.Forms.TabPage()
-        Me.tabViewApp = New System.Windows.Forms.TabPage()
-        Me.Guna2DateTimePicker3 = New Guna.UI2.WinForms.Guna2DateTimePicker()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.Guna2ComboBox3 = New Guna.UI2.WinForms.Guna2ComboBox()
-        Me.Label43 = New System.Windows.Forms.Label()
-        Me.Guna2TextBox6 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Guna2ComboBox4 = New Guna.UI2.WinForms.Guna2ComboBox()
-        Me.Guna2TextBox5 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2ComboBox5 = New Guna.UI2.WinForms.Guna2ComboBox()
-        Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button10 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2GroupBox3 = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Button9 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Label53 = New System.Windows.Forms.Label()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.Guna2TextBox7 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Label46 = New System.Windows.Forms.Label()
         Me.Label47 = New System.Windows.Forms.Label()
@@ -165,21 +175,24 @@ Partial Class Homepage
         Me.Label58 = New System.Windows.Forms.Label()
         Me.Label59 = New System.Windows.Forms.Label()
         Me.Label60 = New System.Windows.Forms.Label()
-        Me.Guna2TextBox7 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Label53 = New System.Windows.Forms.Label()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.Label61 = New System.Windows.Forms.Label()
-        Me.Label62 = New System.Windows.Forms.Label()
-        Me.Label63 = New System.Windows.Forms.Label()
-        Me.Label64 = New System.Windows.Forms.Label()
-        Me.Guna2Button9 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button10 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button11 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2TextBox8 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2DataGridView3 = New Guna.UI2.WinForms.Guna2DataGridView()
+        Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2ComboBox5 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Guna2TextBox5 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Guna2ComboBox4 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.Guna2DateTimePicker3 = New Guna.UI2.WinForms.Guna2DateTimePicker()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Guna2ComboBox3 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Guna2TextBox6 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.tabViewApp = New System.Windows.Forms.TabPage()
         Me.Guna2GroupBox4 = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.Guna2Panel7 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Button12 = New Guna.UI2.WinForms.Guna2Button()
         Me.Label71 = New System.Windows.Forms.Label()
         Me.Label72 = New System.Windows.Forms.Label()
         Me.Label73 = New System.Windows.Forms.Label()
@@ -194,15 +207,16 @@ Partial Class Homepage
         Me.Label82 = New System.Windows.Forms.Label()
         Me.Label83 = New System.Windows.Forms.Label()
         Me.Label84 = New System.Windows.Forms.Label()
-        Me.Label65 = New System.Windows.Forms.Label()
-        Me.Label66 = New System.Windows.Forms.Label()
+        Me.Guna2Button11 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2TextBox8 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2DataGridView3 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.appID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.appDate = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.appTime = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.appOwner = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.appPet = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.appType = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.appStat = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.tabPay = New System.Windows.Forms.TabPage()
         Me.Guna2DataGridView4 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.payID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.payAppID = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -211,49 +225,37 @@ Partial Class Homepage
         Me.payPet = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.payProc = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.payTotal = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label67 = New System.Windows.Forms.Label()
-        Me.Label68 = New System.Windows.Forms.Label()
-        Me.Label69 = New System.Windows.Forms.Label()
-        Me.Guna2DataGridView5 = New Guna.UI2.WinForms.Guna2DataGridView()
-        Me.servicePet = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.serviceProc = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.servicePrice = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Label70 = New System.Windows.Forms.Label()
-        Me.Label85 = New System.Windows.Forms.Label()
-        Me.Label86 = New System.Windows.Forms.Label()
-        Me.Label87 = New System.Windows.Forms.Label()
-        Me.btn_Close = New Guna.UI2.WinForms.Guna2ControlBox()
-        Me.Guna2ControlBox2 = New Guna.UI2.WinForms.Guna2ControlBox()
+        Me.NomVcMessageBox = New Guna.UI2.WinForms.Guna2MessageDialog()
         Me.Guna2Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2TabControl1.SuspendLayout()
         Me.tabDashboard.SuspendLayout()
+        CType(Me.Guna2DataGridView5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2Panel8.SuspendLayout()
         Me.tabAddRec.SuspendLayout()
         Me.pnlRecord.SuspendLayout()
         CType(Me.numPetAge, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.numOwnerAge, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tabOwners.SuspendLayout()
-        CType(Me.tblOwners, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.tabPets.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         Me.grpDetailsOwner.SuspendLayout()
         Me.pnlDetails.SuspendLayout()
-        CType(Me.Guna2DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.tblOwners, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tabPets.SuspendLayout()
         Me.Guna2GroupBox2.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
+        CType(Me.Guna2DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tabApps.SuspendLayout()
-        Me.tabPay.SuspendLayout()
         Me.Guna2TabControl2.SuspendLayout()
         Me.tabcreateApp.SuspendLayout()
-        Me.tabViewApp.SuspendLayout()
         Me.Guna2GroupBox3.SuspendLayout()
         Me.Guna2Panel6.SuspendLayout()
-        CType(Me.Guna2DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tabViewApp.SuspendLayout()
         Me.Guna2GroupBox4.SuspendLayout()
         Me.Guna2Panel7.SuspendLayout()
+        CType(Me.Guna2DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tabPay.SuspendLayout()
         CType(Me.Guna2DataGridView4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Guna2Panel8.SuspendLayout()
-        CType(Me.Guna2DataGridView5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2BorderlessForm1
@@ -265,6 +267,7 @@ Partial Class Homepage
         '
         'Guna2Panel1
         '
+        Me.Guna2Panel1.Controls.Add(Me.PictureBox1)
         Me.Guna2Panel1.Controls.Add(Me.Guna2ControlBox2)
         Me.Guna2Panel1.Controls.Add(Me.btn_Close)
         Me.Guna2Panel1.Controls.Add(Me.lblIS)
@@ -276,13 +279,47 @@ Partial Class Homepage
         Me.Guna2Panel1.Size = New System.Drawing.Size(1398, 74)
         Me.Guna2Panel1.TabIndex = 1
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.NomVC.My.Resources.Resources.paw
+        Me.PictureBox1.Location = New System.Drawing.Point(25, 17)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 5
+        Me.PictureBox1.TabStop = False
+        '
+        'Guna2ControlBox2
+        '
+        Me.Guna2ControlBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
+        Me.Guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Guna2ControlBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2ControlBox2.IconColor = System.Drawing.Color.White
+        Me.Guna2ControlBox2.Location = New System.Drawing.Point(1280, 28)
+        Me.Guna2ControlBox2.Name = "Guna2ControlBox2"
+        Me.Guna2ControlBox2.Size = New System.Drawing.Size(45, 29)
+        Me.Guna2ControlBox2.TabIndex = 4
+        '
+        'btn_Close
+        '
+        Me.btn_Close.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btn_Close.FillColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btn_Close.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_Close.IconColor = System.Drawing.Color.White
+        Me.btn_Close.Location = New System.Drawing.Point(1331, 28)
+        Me.btn_Close.Name = "btn_Close"
+        Me.btn_Close.Size = New System.Drawing.Size(45, 29)
+        Me.btn_Close.TabIndex = 3
+        '
         'lblIS
         '
         Me.lblIS.AutoSize = True
         Me.lblIS.BackColor = System.Drawing.Color.Transparent
         Me.lblIS.Font = New System.Drawing.Font("Segoe UI Light", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblIS.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lblIS.Location = New System.Drawing.Point(467, 21)
+        Me.lblIS.Location = New System.Drawing.Point(529, 21)
         Me.lblIS.Name = "lblIS"
         Me.lblIS.Size = New System.Drawing.Size(271, 36)
         Me.lblIS.TabIndex = 2
@@ -294,7 +331,7 @@ Partial Class Homepage
         Me.lblNomVC.BackColor = System.Drawing.Color.Transparent
         Me.lblNomVC.Font = New System.Drawing.Font("Segoe UI Black", 13.0!, System.Drawing.FontStyle.Bold)
         Me.lblNomVC.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lblNomVC.Location = New System.Drawing.Point(35, 21)
+        Me.lblNomVC.Location = New System.Drawing.Point(131, 21)
         Me.lblNomVC.Name = "lblNomVC"
         Me.lblNomVC.Size = New System.Drawing.Size(347, 36)
         Me.lblNomVC.TabIndex = 1
@@ -350,6 +387,187 @@ Partial Class Homepage
         Me.tabDashboard.Text = "Dashboard"
         Me.tabDashboard.UseVisualStyleBackColor = True
         '
+        'Label87
+        '
+        Me.Label87.AutoSize = True
+        Me.Label87.BackColor = System.Drawing.Color.Transparent
+        Me.Label87.Font = New System.Drawing.Font("Segoe UI Variable Text Semibold", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label87.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.Label87.Location = New System.Drawing.Point(175, 475)
+        Me.Label87.Name = "Label87"
+        Me.Label87.Size = New System.Drawing.Size(182, 30)
+        Me.Label87.TabIndex = 18
+        Me.Label87.Text = "Welcome, Admin"
+        '
+        'Label86
+        '
+        Me.Label86.AutoSize = True
+        Me.Label86.BackColor = System.Drawing.Color.Transparent
+        Me.Label86.Font = New System.Drawing.Font("Segoe UI Variable Text Semibold", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label86.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.Label86.Location = New System.Drawing.Point(569, 85)
+        Me.Label86.Name = "Label86"
+        Me.Label86.Size = New System.Drawing.Size(190, 30)
+        Me.Label86.TabIndex = 17
+        Me.Label86.Text = "Services We Offer"
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.BackColor = System.Drawing.Color.Transparent
+        Me.Label70.Font = New System.Drawing.Font("Segoe UI Variable Text Semibold", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label70.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.Label70.Location = New System.Drawing.Point(175, 106)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(176, 30)
+        Me.Label70.TabIndex = 16
+        Me.Label70.Text = "Veterinary Clinic"
+        '
+        'Label85
+        '
+        Me.Label85.AutoSize = True
+        Me.Label85.BackColor = System.Drawing.Color.Transparent
+        Me.Label85.Font = New System.Drawing.Font("Segoe UI Variable Display", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label85.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.Label85.Location = New System.Drawing.Point(115, 19)
+        Me.Label85.Name = "Label85"
+        Me.Label85.Size = New System.Drawing.Size(304, 96)
+        Me.Label85.TabIndex = 15
+        Me.Label85.Text = "NomVC"
+        '
+        'Guna2DataGridView5
+        '
+        Me.Guna2DataGridView5.AllowUserToResizeRows = False
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Guna2DataGridView5.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView5.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.Guna2DataGridView5.ColumnHeadersHeight = 30
+        Me.Guna2DataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.Guna2DataGridView5.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.servicePet, Me.serviceProc, Me.servicePrice})
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView5.DefaultCellStyle = DataGridViewCellStyle3
+        Me.Guna2DataGridView5.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2DataGridView5.Location = New System.Drawing.Point(574, 133)
+        Me.Guna2DataGridView5.Name = "Guna2DataGridView5"
+        Me.Guna2DataGridView5.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView5.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
+        Me.Guna2DataGridView5.RowHeadersVisible = False
+        Me.Guna2DataGridView5.RowHeadersWidth = 62
+        Me.Guna2DataGridView5.RowTemplate.Height = 28
+        Me.Guna2DataGridView5.Size = New System.Drawing.Size(751, 411)
+        Me.Guna2DataGridView5.TabIndex = 14
+        Me.Guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Guna2DataGridView5.ThemeStyle.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView5.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI Variable Display", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.Height = 30
+        Me.Guna2DataGridView5.ThemeStyle.ReadOnly = False
+        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.Height = 28
+        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        '
+        'servicePet
+        '
+        Me.servicePet.HeaderText = "Pet Type"
+        Me.servicePet.MinimumWidth = 8
+        Me.servicePet.Name = "servicePet"
+        '
+        'serviceProc
+        '
+        Me.serviceProc.HeaderText = "Procedure"
+        Me.serviceProc.MinimumWidth = 8
+        Me.serviceProc.Name = "serviceProc"
+        '
+        'servicePrice
+        '
+        Me.servicePrice.HeaderText = "Price"
+        Me.servicePrice.MinimumWidth = 8
+        Me.servicePrice.Name = "servicePrice"
+        '
+        'Guna2Panel8
+        '
+        Me.Guna2Panel8.BorderRadius = 15
+        Me.Guna2Panel8.Controls.Add(Me.Label67)
+        Me.Guna2Panel8.Controls.Add(Me.Label68)
+        Me.Guna2Panel8.Controls.Add(Me.Label69)
+        Me.Guna2Panel8.FillColor = System.Drawing.Color.RoyalBlue
+        Me.Guna2Panel8.Location = New System.Drawing.Point(69, 175)
+        Me.Guna2Panel8.Name = "Guna2Panel8"
+        Me.Guna2Panel8.Size = New System.Drawing.Size(432, 252)
+        Me.Guna2Panel8.TabIndex = 13
+        '
+        'Label67
+        '
+        Me.Label67.AutoSize = True
+        Me.Label67.BackColor = System.Drawing.Color.Transparent
+        Me.Label67.Font = New System.Drawing.Font("Yu Gothic", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label67.Location = New System.Drawing.Point(37, 41)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(197, 36)
+        Me.Label67.TabIndex = 4
+        Me.Label67.Text = "DATE TODAY"
+        '
+        'Label68
+        '
+        Me.Label68.AutoSize = True
+        Me.Label68.BackColor = System.Drawing.Color.Transparent
+        Me.Label68.Font = New System.Drawing.Font("Segoe UI Light", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label68.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label68.Location = New System.Drawing.Point(37, 138)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(135, 36)
+        Me.Label68.TabIndex = 3
+        Me.Label68.Text = "TEXT HERE"
+        '
+        'Label69
+        '
+        Me.Label69.AutoSize = True
+        Me.Label69.BackColor = System.Drawing.Color.Transparent
+        Me.Label69.Font = New System.Drawing.Font("Segoe UI Black", 13.0!, System.Drawing.FontStyle.Bold)
+        Me.Label69.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label69.Location = New System.Drawing.Point(37, 77)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(330, 36)
+        Me.Label69.TabIndex = 3
+        Me.Label69.Text = "APPOINTMENTS TODAY"
+        '
         'tabAddRec
         '
         Me.tabAddRec.Controls.Add(Me.pnlRecord)
@@ -364,6 +582,9 @@ Partial Class Homepage
         '
         'pnlRecord
         '
+        Me.pnlRecord.Controls.Add(Me.chkHasOwner)
+        Me.pnlRecord.Controls.Add(Me.txtOwnerID)
+        Me.pnlRecord.Controls.Add(Me.txtPetID)
         Me.pnlRecord.Controls.Add(Me.btnClearRec)
         Me.pnlRecord.Controls.Add(Me.btnAddRec)
         Me.pnlRecord.Controls.Add(Me.chkNoVisit)
@@ -397,6 +618,80 @@ Partial Class Homepage
         Me.pnlRecord.Name = "pnlRecord"
         Me.pnlRecord.Size = New System.Drawing.Size(1353, 595)
         Me.pnlRecord.TabIndex = 0
+        '
+        'chkHasOwner
+        '
+        Me.chkHasOwner.AutoSize = True
+        Me.chkHasOwner.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chkHasOwner.Location = New System.Drawing.Point(372, 111)
+        Me.chkHasOwner.Name = "chkHasOwner"
+        Me.chkHasOwner.Size = New System.Drawing.Size(293, 28)
+        Me.chkHasOwner.TabIndex = 62
+        Me.chkHasOwner.Text = "Owner Currently Exists in Record"
+        Me.chkHasOwner.UseVisualStyleBackColor = True
+        '
+        'txtOwnerID
+        '
+        Me.txtOwnerID.BorderColor = System.Drawing.Color.LightGray
+        Me.txtOwnerID.BorderRadius = 10
+        Me.txtOwnerID.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtOwnerID.DefaultText = ""
+        Me.txtOwnerID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtOwnerID.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtOwnerID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtOwnerID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtOwnerID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtOwnerID.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
+        Me.txtOwnerID.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtOwnerID.Location = New System.Drawing.Point(20, 100)
+        Me.txtOwnerID.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtOwnerID.Name = "txtOwnerID"
+        Me.txtOwnerID.PlaceholderText = "ID"
+        Me.txtOwnerID.SelectedText = ""
+        Me.txtOwnerID.Size = New System.Drawing.Size(229, 53)
+        Me.txtOwnerID.TabIndex = 61
+        '
+        'txtPetID
+        '
+        Me.txtPetID.BorderColor = System.Drawing.Color.LightGray
+        Me.txtPetID.BorderRadius = 10
+        Me.txtPetID.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtPetID.DefaultText = ""
+        Me.txtPetID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtPetID.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtPetID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtPetID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtPetID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtPetID.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
+        Me.txtPetID.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtPetID.Location = New System.Drawing.Point(372, 159)
+        Me.txtPetID.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtPetID.Name = "txtPetID"
+        Me.txtPetID.PlaceholderText = "ID"
+        Me.txtPetID.SelectedText = ""
+        Me.txtPetID.Size = New System.Drawing.Size(196, 53)
+        Me.txtPetID.TabIndex = 60
+        '
+        'btnClearRec
+        '
+        Me.btnClearRec.Animated = True
+        Me.btnClearRec.BackColor = System.Drawing.Color.Transparent
+        Me.btnClearRec.BorderColor = System.Drawing.Color.LightGray
+        Me.btnClearRec.BorderRadius = 10
+        Me.btnClearRec.BorderThickness = 1
+        Me.btnClearRec.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnClearRec.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnClearRec.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnClearRec.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnClearRec.FillColor = System.Drawing.Color.White
+        Me.btnClearRec.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.btnClearRec.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.btnClearRec.IndicateFocus = True
+        Me.btnClearRec.Location = New System.Drawing.Point(354, 434)
+        Me.btnClearRec.Name = "btnClearRec"
+        Me.btnClearRec.Size = New System.Drawing.Size(455, 82)
+        Me.btnClearRec.TabIndex = 59
+        Me.btnClearRec.Text = "Clear Record"
         '
         'btnAddRec
         '
@@ -579,7 +874,7 @@ Partial Class Homepage
         Me.lblBdate.BackColor = System.Drawing.Color.Transparent
         Me.lblBdate.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblBdate.ForeColor = System.Drawing.Color.DimGray
-        Me.lblBdate.Location = New System.Drawing.Point(364, 269)
+        Me.lblBdate.Location = New System.Drawing.Point(378, 309)
         Me.lblBdate.Name = "lblBdate"
         Me.lblBdate.Size = New System.Drawing.Size(92, 27)
         Me.lblBdate.TabIndex = 44
@@ -595,7 +890,7 @@ Partial Class Homepage
         Me.dtpBirthdate.Font = New System.Drawing.Font("Segoe UI Variable Text", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpBirthdate.ForeColor = System.Drawing.SystemColors.InactiveBorder
         Me.dtpBirthdate.Format = System.Windows.Forms.DateTimePickerFormat.[Long]
-        Me.dtpBirthdate.Location = New System.Drawing.Point(493, 261)
+        Me.dtpBirthdate.Location = New System.Drawing.Point(507, 301)
         Me.dtpBirthdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         Me.dtpBirthdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         Me.dtpBirthdate.Name = "dtpBirthdate"
@@ -609,7 +904,7 @@ Partial Class Homepage
         Me.lblAgeP.BackColor = System.Drawing.Color.Transparent
         Me.lblAgeP.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAgeP.ForeColor = System.Drawing.Color.DimGray
-        Me.lblAgeP.Location = New System.Drawing.Point(364, 196)
+        Me.lblAgeP.Location = New System.Drawing.Point(378, 236)
         Me.lblAgeP.Name = "lblAgeP"
         Me.lblAgeP.Size = New System.Drawing.Size(47, 27)
         Me.lblAgeP.TabIndex = 42
@@ -622,7 +917,7 @@ Partial Class Homepage
         Me.numPetAge.BorderRadius = 15
         Me.numPetAge.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.numPetAge.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.numPetAge.Location = New System.Drawing.Point(493, 181)
+        Me.numPetAge.Location = New System.Drawing.Point(507, 221)
         Me.numPetAge.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.numPetAge.Name = "numPetAge"
         Me.numPetAge.Size = New System.Drawing.Size(265, 60)
@@ -641,12 +936,12 @@ Partial Class Homepage
         Me.txtPetName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtPetName.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
         Me.txtPetName.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtPetName.Location = New System.Drawing.Point(369, 111)
+        Me.txtPetName.Location = New System.Drawing.Point(592, 159)
         Me.txtPetName.Margin = New System.Windows.Forms.Padding(4)
         Me.txtPetName.Name = "txtPetName"
         Me.txtPetName.PlaceholderText = "Name"
         Me.txtPetName.SelectedText = ""
-        Me.txtPetName.Size = New System.Drawing.Size(389, 53)
+        Me.txtPetName.Size = New System.Drawing.Size(180, 53)
         Me.txtPetName.TabIndex = 40
         '
         'lblPetInf
@@ -674,7 +969,7 @@ Partial Class Homepage
         Me.lblSex.BackColor = System.Drawing.Color.Transparent
         Me.lblSex.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSex.ForeColor = System.Drawing.Color.DimGray
-        Me.lblSex.Location = New System.Drawing.Point(25, 338)
+        Me.lblSex.Location = New System.Drawing.Point(27, 409)
         Me.lblSex.Name = "lblSex"
         Me.lblSex.Size = New System.Drawing.Size(42, 27)
         Me.lblSex.TabIndex = 37
@@ -693,7 +988,7 @@ Partial Class Homepage
         Me.cmbSex.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.cmbSex.ItemHeight = 30
         Me.cmbSex.Items.AddRange(New Object() {"Male", "Female"})
-        Me.cmbSex.Location = New System.Drawing.Point(125, 338)
+        Me.cmbSex.Location = New System.Drawing.Point(127, 409)
         Me.cmbSex.Name = "cmbSex"
         Me.cmbSex.Size = New System.Drawing.Size(124, 36)
         Me.cmbSex.StartIndex = 0
@@ -705,7 +1000,7 @@ Partial Class Homepage
         Me.lblAgeO.BackColor = System.Drawing.Color.Transparent
         Me.lblAgeO.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAgeO.ForeColor = System.Drawing.Color.DimGray
-        Me.lblAgeO.Location = New System.Drawing.Point(24, 269)
+        Me.lblAgeO.Location = New System.Drawing.Point(26, 340)
         Me.lblAgeO.Name = "lblAgeO"
         Me.lblAgeO.Size = New System.Drawing.Size(47, 27)
         Me.lblAgeO.TabIndex = 35
@@ -718,7 +1013,7 @@ Partial Class Homepage
         Me.numOwnerAge.BorderRadius = 15
         Me.numOwnerAge.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.numOwnerAge.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.numOwnerAge.Location = New System.Drawing.Point(124, 252)
+        Me.numOwnerAge.Location = New System.Drawing.Point(126, 323)
         Me.numOwnerAge.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.numOwnerAge.Name = "numOwnerAge"
         Me.numOwnerAge.Size = New System.Drawing.Size(123, 60)
@@ -737,7 +1032,7 @@ Partial Class Homepage
         Me.txtAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtAddress.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
         Me.txtAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtAddress.Location = New System.Drawing.Point(18, 179)
+        Me.txtAddress.Location = New System.Drawing.Point(20, 240)
         Me.txtAddress.Margin = New System.Windows.Forms.Padding(4)
         Me.txtAddress.Name = "txtAddress"
         Me.txtAddress.PlaceholderText = "Address"
@@ -770,7 +1065,7 @@ Partial Class Homepage
         Me.txtOwnerName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtOwnerName.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
         Me.txtOwnerName.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtOwnerName.Location = New System.Drawing.Point(18, 109)
+        Me.txtOwnerName.Location = New System.Drawing.Point(20, 170)
         Me.txtOwnerName.Margin = New System.Windows.Forms.Padding(4)
         Me.txtOwnerName.Name = "txtOwnerName"
         Me.txtOwnerName.PlaceholderText = "Name"
@@ -806,47 +1101,251 @@ Partial Class Homepage
         Me.tabOwners.Text = "Owners"
         Me.tabOwners.UseVisualStyleBackColor = True
         '
+        'Guna2Panel2
+        '
+        Me.Guna2Panel2.Controls.Add(Me.grpDetailsOwner)
+        Me.Guna2Panel2.Location = New System.Drawing.Point(774, 24)
+        Me.Guna2Panel2.Name = "Guna2Panel2"
+        Me.Guna2Panel2.Size = New System.Drawing.Size(583, 552)
+        Me.Guna2Panel2.TabIndex = 60
+        '
+        'grpDetailsOwner
+        '
+        Me.grpDetailsOwner.Controls.Add(Me.pnlDetails)
+        Me.grpDetailsOwner.CustomBorderColor = System.Drawing.Color.CornflowerBlue
+        Me.grpDetailsOwner.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.grpDetailsOwner.ForeColor = System.Drawing.Color.AliceBlue
+        Me.grpDetailsOwner.Location = New System.Drawing.Point(3, 0)
+        Me.grpDetailsOwner.Name = "grpDetailsOwner"
+        Me.grpDetailsOwner.Size = New System.Drawing.Size(580, 552)
+        Me.grpDetailsOwner.TabIndex = 0
+        Me.grpDetailsOwner.Text = "OWNER DETAILS"
+        '
+        'pnlDetails
+        '
+        Me.pnlDetails.Controls.Add(Me.lblAddressVal)
+        Me.pnlDetails.Controls.Add(Me.lblSexVal)
+        Me.pnlDetails.Controls.Add(Me.lblAgeVal)
+        Me.pnlDetails.Controls.Add(Me.lblNameVal)
+        Me.pnlDetails.Controls.Add(Me.boxPetsList)
+        Me.pnlDetails.Controls.Add(Me.lblDetail5)
+        Me.pnlDetails.Controls.Add(Me.lblDetail4)
+        Me.pnlDetails.Controls.Add(Me.lblDetail3)
+        Me.pnlDetails.Controls.Add(Me.lblDetail2)
+        Me.pnlDetails.Controls.Add(Me.lblDetail1)
+        Me.pnlDetails.Location = New System.Drawing.Point(3, 43)
+        Me.pnlDetails.Name = "pnlDetails"
+        Me.pnlDetails.Size = New System.Drawing.Size(574, 506)
+        Me.pnlDetails.TabIndex = 0
+        '
+        'lblAddressVal
+        '
+        Me.lblAddressVal.AutoSize = True
+        Me.lblAddressVal.BackColor = System.Drawing.Color.Transparent
+        Me.lblAddressVal.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAddressVal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.lblAddressVal.Location = New System.Drawing.Point(143, 126)
+        Me.lblAddressVal.Name = "lblAddressVal"
+        Me.lblAddressVal.Size = New System.Drawing.Size(77, 24)
+        Me.lblAddressVal.TabIndex = 22
+        Me.lblAddressVal.Text = "Address"
+        Me.lblAddressVal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblSexVal
+        '
+        Me.lblSexVal.AutoSize = True
+        Me.lblSexVal.BackColor = System.Drawing.Color.Transparent
+        Me.lblSexVal.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSexVal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.lblSexVal.Location = New System.Drawing.Point(143, 99)
+        Me.lblSexVal.Name = "lblSexVal"
+        Me.lblSexVal.Size = New System.Drawing.Size(39, 24)
+        Me.lblSexVal.TabIndex = 21
+        Me.lblSexVal.Text = "Sex"
+        Me.lblSexVal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblAgeVal
+        '
+        Me.lblAgeVal.AutoSize = True
+        Me.lblAgeVal.BackColor = System.Drawing.Color.Transparent
+        Me.lblAgeVal.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAgeVal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.lblAgeVal.Location = New System.Drawing.Point(143, 72)
+        Me.lblAgeVal.Name = "lblAgeVal"
+        Me.lblAgeVal.Size = New System.Drawing.Size(43, 24)
+        Me.lblAgeVal.TabIndex = 20
+        Me.lblAgeVal.Text = "Age"
+        Me.lblAgeVal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblNameVal
+        '
+        Me.lblNameVal.AutoSize = True
+        Me.lblNameVal.BackColor = System.Drawing.Color.Transparent
+        Me.lblNameVal.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNameVal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.lblNameVal.Location = New System.Drawing.Point(143, 45)
+        Me.lblNameVal.Name = "lblNameVal"
+        Me.lblNameVal.Size = New System.Drawing.Size(60, 24)
+        Me.lblNameVal.TabIndex = 19
+        Me.lblNameVal.Text = "Name"
+        Me.lblNameVal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'boxPetsList
+        '
+        Me.boxPetsList.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.boxPetsList.FormattingEnabled = True
+        Me.boxPetsList.ItemHeight = 24
+        Me.boxPetsList.Items.AddRange(New Object() {"Put here"})
+        Me.boxPetsList.Location = New System.Drawing.Point(24, 217)
+        Me.boxPetsList.Name = "boxPetsList"
+        Me.boxPetsList.Size = New System.Drawing.Size(534, 264)
+        Me.boxPetsList.TabIndex = 18
+        '
+        'lblDetail5
+        '
+        Me.lblDetail5.AutoSize = True
+        Me.lblDetail5.BackColor = System.Drawing.Color.Transparent
+        Me.lblDetail5.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDetail5.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.lblDetail5.Location = New System.Drawing.Point(19, 187)
+        Me.lblDetail5.Name = "lblDetail5"
+        Me.lblDetail5.Size = New System.Drawing.Size(113, 27)
+        Me.lblDetail5.TabIndex = 17
+        Me.lblDetail5.Text = "List of Pets"
+        Me.lblDetail5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblDetail4
+        '
+        Me.lblDetail4.AutoSize = True
+        Me.lblDetail4.BackColor = System.Drawing.Color.Transparent
+        Me.lblDetail4.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDetail4.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.lblDetail4.Location = New System.Drawing.Point(19, 123)
+        Me.lblDetail4.Name = "lblDetail4"
+        Me.lblDetail4.Size = New System.Drawing.Size(87, 27)
+        Me.lblDetail4.TabIndex = 16
+        Me.lblDetail4.Text = "Address"
+        Me.lblDetail4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblDetail3
+        '
+        Me.lblDetail3.AutoSize = True
+        Me.lblDetail3.BackColor = System.Drawing.Color.Transparent
+        Me.lblDetail3.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDetail3.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.lblDetail3.Location = New System.Drawing.Point(19, 96)
+        Me.lblDetail3.Name = "lblDetail3"
+        Me.lblDetail3.Size = New System.Drawing.Size(46, 27)
+        Me.lblDetail3.TabIndex = 15
+        Me.lblDetail3.Text = "Sex"
+        Me.lblDetail3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblDetail2
+        '
+        Me.lblDetail2.AutoSize = True
+        Me.lblDetail2.BackColor = System.Drawing.Color.Transparent
+        Me.lblDetail2.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDetail2.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.lblDetail2.Location = New System.Drawing.Point(19, 69)
+        Me.lblDetail2.Name = "lblDetail2"
+        Me.lblDetail2.Size = New System.Drawing.Size(49, 27)
+        Me.lblDetail2.TabIndex = 14
+        Me.lblDetail2.Text = "Age"
+        Me.lblDetail2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblDetail1
+        '
+        Me.lblDetail1.AutoSize = True
+        Me.lblDetail1.BackColor = System.Drawing.Color.Transparent
+        Me.lblDetail1.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDetail1.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.lblDetail1.Location = New System.Drawing.Point(19, 42)
+        Me.lblDetail1.Name = "lblDetail1"
+        Me.lblDetail1.Size = New System.Drawing.Size(68, 27)
+        Me.lblDetail1.TabIndex = 13
+        Me.lblDetail1.Text = "Name"
+        Me.lblDetail1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'btnSearchOwner
+        '
+        Me.btnSearchOwner.Animated = True
+        Me.btnSearchOwner.BackColor = System.Drawing.Color.Transparent
+        Me.btnSearchOwner.BorderRadius = 10
+        Me.btnSearchOwner.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnSearchOwner.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnSearchOwner.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnSearchOwner.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnSearchOwner.FillColor = System.Drawing.Color.RoyalBlue
+        Me.btnSearchOwner.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSearchOwner.ForeColor = System.Drawing.Color.White
+        Me.btnSearchOwner.IndicateFocus = True
+        Me.btnSearchOwner.Location = New System.Drawing.Point(597, 24)
+        Me.btnSearchOwner.Name = "btnSearchOwner"
+        Me.btnSearchOwner.Size = New System.Drawing.Size(161, 47)
+        Me.btnSearchOwner.TabIndex = 59
+        Me.btnSearchOwner.Text = "Search"
+        '
+        'txtSearchOwner
+        '
+        Me.txtSearchOwner.BorderColor = System.Drawing.Color.LightGray
+        Me.txtSearchOwner.BorderRadius = 10
+        Me.txtSearchOwner.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtSearchOwner.DefaultText = ""
+        Me.txtSearchOwner.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtSearchOwner.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtSearchOwner.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtSearchOwner.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtSearchOwner.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtSearchOwner.Font = New System.Drawing.Font("Segoe UI Variable Display", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSearchOwner.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtSearchOwner.Location = New System.Drawing.Point(7, 24)
+        Me.txtSearchOwner.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtSearchOwner.Name = "txtSearchOwner"
+        Me.txtSearchOwner.PlaceholderText = "Search Owner ID"
+        Me.txtSearchOwner.SelectedText = ""
+        Me.txtSearchOwner.Size = New System.Drawing.Size(567, 47)
+        Me.txtSearchOwner.TabIndex = 41
+        '
         'tblOwners
         '
         Me.tblOwners.AllowUserToResizeRows = False
-        DataGridViewCellStyle21.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle21.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.tblOwners.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle21
-        Me.tblOwners.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        DataGridViewCellStyle22.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle22.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        DataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.tblOwners.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle22
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.tblOwners.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.tblOwners.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
         Me.tblOwners.ColumnHeadersHeight = 30
         Me.tblOwners.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.tblOwners.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ownerID, Me.ownerName, Me.ownerAge, Me.ownerSex, Me.ownerAddress})
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle23.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle23.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.tblOwners.DefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.tblOwners.DefaultCellStyle = DataGridViewCellStyle7
         Me.tblOwners.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.tblOwners.Location = New System.Drawing.Point(7, 77)
         Me.tblOwners.Name = "tblOwners"
         Me.tblOwners.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle24.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle24.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.tblOwners.RowHeadersDefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.tblOwners.RowHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.tblOwners.RowHeadersVisible = False
         Me.tblOwners.RowHeadersWidth = 62
         Me.tblOwners.RowTemplate.Height = 28
@@ -919,337 +1418,6 @@ Partial Class Homepage
         Me.tabPets.Text = "Pets"
         Me.tabPets.UseVisualStyleBackColor = True
         '
-        'btnClearRec
-        '
-        Me.btnClearRec.Animated = True
-        Me.btnClearRec.BackColor = System.Drawing.Color.Transparent
-        Me.btnClearRec.BorderColor = System.Drawing.Color.LightGray
-        Me.btnClearRec.BorderRadius = 10
-        Me.btnClearRec.BorderThickness = 1
-        Me.btnClearRec.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnClearRec.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnClearRec.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnClearRec.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnClearRec.FillColor = System.Drawing.Color.White
-        Me.btnClearRec.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClearRec.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.btnClearRec.IndicateFocus = True
-        Me.btnClearRec.Location = New System.Drawing.Point(317, 434)
-        Me.btnClearRec.Name = "btnClearRec"
-        Me.btnClearRec.Size = New System.Drawing.Size(455, 82)
-        Me.btnClearRec.TabIndex = 59
-        Me.btnClearRec.Text = "Clear Record"
-        '
-        'txtSearchOwner
-        '
-        Me.txtSearchOwner.BorderColor = System.Drawing.Color.LightGray
-        Me.txtSearchOwner.BorderRadius = 10
-        Me.txtSearchOwner.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtSearchOwner.DefaultText = ""
-        Me.txtSearchOwner.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.txtSearchOwner.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.txtSearchOwner.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txtSearchOwner.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txtSearchOwner.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtSearchOwner.Font = New System.Drawing.Font("Segoe UI Variable Display", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSearchOwner.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtSearchOwner.Location = New System.Drawing.Point(7, 24)
-        Me.txtSearchOwner.Name = "txtSearchOwner"
-        Me.txtSearchOwner.PlaceholderText = "Search Owner ID"
-        Me.txtSearchOwner.SelectedText = ""
-        Me.txtSearchOwner.Size = New System.Drawing.Size(567, 47)
-        Me.txtSearchOwner.TabIndex = 41
-        '
-        'btnSearchOwner
-        '
-        Me.btnSearchOwner.Animated = True
-        Me.btnSearchOwner.BackColor = System.Drawing.Color.Transparent
-        Me.btnSearchOwner.BorderRadius = 10
-        Me.btnSearchOwner.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnSearchOwner.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnSearchOwner.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnSearchOwner.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnSearchOwner.FillColor = System.Drawing.Color.RoyalBlue
-        Me.btnSearchOwner.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSearchOwner.ForeColor = System.Drawing.Color.White
-        Me.btnSearchOwner.IndicateFocus = True
-        Me.btnSearchOwner.Location = New System.Drawing.Point(597, 24)
-        Me.btnSearchOwner.Name = "btnSearchOwner"
-        Me.btnSearchOwner.Size = New System.Drawing.Size(161, 47)
-        Me.btnSearchOwner.TabIndex = 59
-        Me.btnSearchOwner.Text = "Search"
-        '
-        'Guna2Panel2
-        '
-        Me.Guna2Panel2.Controls.Add(Me.grpDetailsOwner)
-        Me.Guna2Panel2.Location = New System.Drawing.Point(774, 24)
-        Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(583, 552)
-        Me.Guna2Panel2.TabIndex = 60
-        '
-        'grpDetailsOwner
-        '
-        Me.grpDetailsOwner.Controls.Add(Me.pnlDetails)
-        Me.grpDetailsOwner.CustomBorderColor = System.Drawing.Color.CornflowerBlue
-        Me.grpDetailsOwner.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpDetailsOwner.ForeColor = System.Drawing.Color.AliceBlue
-        Me.grpDetailsOwner.Location = New System.Drawing.Point(3, 0)
-        Me.grpDetailsOwner.Name = "grpDetailsOwner"
-        Me.grpDetailsOwner.Size = New System.Drawing.Size(580, 552)
-        Me.grpDetailsOwner.TabIndex = 0
-        Me.grpDetailsOwner.Text = "OWNER DETAILS"
-        '
-        'pnlDetails
-        '
-        Me.pnlDetails.Controls.Add(Me.lblAddressVal)
-        Me.pnlDetails.Controls.Add(Me.lblSexVal)
-        Me.pnlDetails.Controls.Add(Me.lblAgeVal)
-        Me.pnlDetails.Controls.Add(Me.lblNameVal)
-        Me.pnlDetails.Controls.Add(Me.boxPetsList)
-        Me.pnlDetails.Controls.Add(Me.lblDetail5)
-        Me.pnlDetails.Controls.Add(Me.lblDetail4)
-        Me.pnlDetails.Controls.Add(Me.lblDetail3)
-        Me.pnlDetails.Controls.Add(Me.lblDetail2)
-        Me.pnlDetails.Controls.Add(Me.lblDetail1)
-        Me.pnlDetails.Location = New System.Drawing.Point(3, 43)
-        Me.pnlDetails.Name = "pnlDetails"
-        Me.pnlDetails.Size = New System.Drawing.Size(574, 506)
-        Me.pnlDetails.TabIndex = 0
-        '
-        'lblDetail1
-        '
-        Me.lblDetail1.AutoSize = True
-        Me.lblDetail1.BackColor = System.Drawing.Color.Transparent
-        Me.lblDetail1.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDetail1.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.lblDetail1.Location = New System.Drawing.Point(19, 42)
-        Me.lblDetail1.Name = "lblDetail1"
-        Me.lblDetail1.Size = New System.Drawing.Size(68, 27)
-        Me.lblDetail1.TabIndex = 13
-        Me.lblDetail1.Text = "Name"
-        Me.lblDetail1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'lblDetail2
-        '
-        Me.lblDetail2.AutoSize = True
-        Me.lblDetail2.BackColor = System.Drawing.Color.Transparent
-        Me.lblDetail2.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDetail2.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.lblDetail2.Location = New System.Drawing.Point(19, 69)
-        Me.lblDetail2.Name = "lblDetail2"
-        Me.lblDetail2.Size = New System.Drawing.Size(49, 27)
-        Me.lblDetail2.TabIndex = 14
-        Me.lblDetail2.Text = "Age"
-        Me.lblDetail2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'lblDetail3
-        '
-        Me.lblDetail3.AutoSize = True
-        Me.lblDetail3.BackColor = System.Drawing.Color.Transparent
-        Me.lblDetail3.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDetail3.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.lblDetail3.Location = New System.Drawing.Point(19, 96)
-        Me.lblDetail3.Name = "lblDetail3"
-        Me.lblDetail3.Size = New System.Drawing.Size(46, 27)
-        Me.lblDetail3.TabIndex = 15
-        Me.lblDetail3.Text = "Sex"
-        Me.lblDetail3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'lblDetail4
-        '
-        Me.lblDetail4.AutoSize = True
-        Me.lblDetail4.BackColor = System.Drawing.Color.Transparent
-        Me.lblDetail4.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDetail4.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.lblDetail4.Location = New System.Drawing.Point(19, 123)
-        Me.lblDetail4.Name = "lblDetail4"
-        Me.lblDetail4.Size = New System.Drawing.Size(87, 27)
-        Me.lblDetail4.TabIndex = 16
-        Me.lblDetail4.Text = "Address"
-        Me.lblDetail4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'lblDetail5
-        '
-        Me.lblDetail5.AutoSize = True
-        Me.lblDetail5.BackColor = System.Drawing.Color.Transparent
-        Me.lblDetail5.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDetail5.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.lblDetail5.Location = New System.Drawing.Point(19, 187)
-        Me.lblDetail5.Name = "lblDetail5"
-        Me.lblDetail5.Size = New System.Drawing.Size(113, 27)
-        Me.lblDetail5.TabIndex = 17
-        Me.lblDetail5.Text = "List of Pets"
-        Me.lblDetail5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'boxPetsList
-        '
-        Me.boxPetsList.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.boxPetsList.FormattingEnabled = True
-        Me.boxPetsList.ItemHeight = 24
-        Me.boxPetsList.Items.AddRange(New Object() {"Put here"})
-        Me.boxPetsList.Location = New System.Drawing.Point(24, 217)
-        Me.boxPetsList.Name = "boxPetsList"
-        Me.boxPetsList.Size = New System.Drawing.Size(534, 264)
-        Me.boxPetsList.TabIndex = 18
-        '
-        'lblAddressVal
-        '
-        Me.lblAddressVal.AutoSize = True
-        Me.lblAddressVal.BackColor = System.Drawing.Color.Transparent
-        Me.lblAddressVal.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblAddressVal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.lblAddressVal.Location = New System.Drawing.Point(143, 126)
-        Me.lblAddressVal.Name = "lblAddressVal"
-        Me.lblAddressVal.Size = New System.Drawing.Size(77, 24)
-        Me.lblAddressVal.TabIndex = 22
-        Me.lblAddressVal.Text = "Address"
-        Me.lblAddressVal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'lblSexVal
-        '
-        Me.lblSexVal.AutoSize = True
-        Me.lblSexVal.BackColor = System.Drawing.Color.Transparent
-        Me.lblSexVal.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSexVal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.lblSexVal.Location = New System.Drawing.Point(143, 99)
-        Me.lblSexVal.Name = "lblSexVal"
-        Me.lblSexVal.Size = New System.Drawing.Size(39, 24)
-        Me.lblSexVal.TabIndex = 21
-        Me.lblSexVal.Text = "Sex"
-        Me.lblSexVal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'lblAgeVal
-        '
-        Me.lblAgeVal.AutoSize = True
-        Me.lblAgeVal.BackColor = System.Drawing.Color.Transparent
-        Me.lblAgeVal.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblAgeVal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.lblAgeVal.Location = New System.Drawing.Point(143, 72)
-        Me.lblAgeVal.Name = "lblAgeVal"
-        Me.lblAgeVal.Size = New System.Drawing.Size(43, 24)
-        Me.lblAgeVal.TabIndex = 20
-        Me.lblAgeVal.Text = "Age"
-        Me.lblAgeVal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'lblNameVal
-        '
-        Me.lblNameVal.AutoSize = True
-        Me.lblNameVal.BackColor = System.Drawing.Color.Transparent
-        Me.lblNameVal.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNameVal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.lblNameVal.Location = New System.Drawing.Point(143, 45)
-        Me.lblNameVal.Name = "lblNameVal"
-        Me.lblNameVal.Size = New System.Drawing.Size(60, 24)
-        Me.lblNameVal.TabIndex = 19
-        Me.lblNameVal.Text = "Name"
-        Me.lblNameVal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Guna2Button3
-        '
-        Me.Guna2Button3.Animated = True
-        Me.Guna2Button3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button3.BorderRadius = 10
-        Me.Guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button3.FillColor = System.Drawing.Color.RoyalBlue
-        Me.Guna2Button3.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button3.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button3.IndicateFocus = True
-        Me.Guna2Button3.Location = New System.Drawing.Point(598, 24)
-        Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.Size = New System.Drawing.Size(161, 47)
-        Me.Guna2Button3.TabIndex = 62
-        Me.Guna2Button3.Text = "Search"
-        '
-        'Guna2TextBox4
-        '
-        Me.Guna2TextBox4.BorderColor = System.Drawing.Color.LightGray
-        Me.Guna2TextBox4.BorderRadius = 10
-        Me.Guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox4.DefaultText = ""
-        Me.Guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox4.Font = New System.Drawing.Font("Segoe UI Variable Display", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox4.Location = New System.Drawing.Point(8, 24)
-        Me.Guna2TextBox4.Name = "Guna2TextBox4"
-        Me.Guna2TextBox4.PlaceholderText = "Search Owner ID"
-        Me.Guna2TextBox4.SelectedText = ""
-        Me.Guna2TextBox4.Size = New System.Drawing.Size(567, 47)
-        Me.Guna2TextBox4.TabIndex = 61
-        '
-        'Guna2DataGridView2
-        '
-        Me.Guna2DataGridView2.AllowUserToResizeRows = False
-        DataGridViewCellStyle25.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle25.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle25.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.Guna2DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle25
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle26.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        DataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle26
-        Me.Guna2DataGridView2.ColumnHeadersHeight = 30
-        Me.Guna2DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.Guna2DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.petID, Me.petName, Me.petOwner, Me.petType, Me.petVac, Me.petVisit})
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle27.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView2.DefaultCellStyle = DataGridViewCellStyle27
-        Me.Guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView2.Location = New System.Drawing.Point(8, 77)
-        Me.Guna2DataGridView2.Name = "Guna2DataGridView2"
-        Me.Guna2DataGridView2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle28.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView2.RowHeadersDefaultCellStyle = DataGridViewCellStyle28
-        Me.Guna2DataGridView2.RowHeadersVisible = False
-        Me.Guna2DataGridView2.RowHeadersWidth = 62
-        Me.Guna2DataGridView2.RowTemplate.Height = 28
-        Me.Guna2DataGridView2.Size = New System.Drawing.Size(751, 499)
-        Me.Guna2DataGridView2.TabIndex = 60
-        Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.Guna2DataGridView2.ThemeStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView2.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI Variable Display", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
-        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 30
-        Me.Guna2DataGridView2.ThemeStyle.ReadOnly = False
-        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
-        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black
-        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.Height = 28
-        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        '
         'Guna2GroupBox2
         '
         Me.Guna2GroupBox2.Controls.Add(Me.Guna2Panel5)
@@ -1284,6 +1452,110 @@ Partial Class Homepage
         Me.Guna2Panel5.Name = "Guna2Panel5"
         Me.Guna2Panel5.Size = New System.Drawing.Size(574, 506)
         Me.Guna2Panel5.TabIndex = 0
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.BackColor = System.Drawing.Color.Transparent
+        Me.Label36.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label36.Location = New System.Drawing.Point(218, 324)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(155, 24)
+        Me.Label36.TabIndex = 30
+        Me.Label36.Text = "Date of Next Visit"
+        Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.BackColor = System.Drawing.Color.Transparent
+        Me.Label37.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label37.Location = New System.Drawing.Point(218, 297)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(129, 24)
+        Me.Label37.TabIndex = 29
+        Me.Label37.Text = "Vaccine Status"
+        Me.Label37.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.BackColor = System.Drawing.Color.Transparent
+        Me.Label38.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label38.Location = New System.Drawing.Point(218, 270)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(49, 24)
+        Me.Label38.TabIndex = 28
+        Me.Label38.Text = "Type"
+        Me.Label38.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.BackColor = System.Drawing.Color.Transparent
+        Me.Label39.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label39.Location = New System.Drawing.Point(218, 243)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(69, 24)
+        Me.Label39.TabIndex = 27
+        Me.Label39.Text = "Weight"
+        Me.Label39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.BackColor = System.Drawing.Color.Transparent
+        Me.Label28.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.Label28.Location = New System.Drawing.Point(19, 321)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(178, 27)
+        Me.Label28.TabIndex = 26
+        Me.Label28.Text = "Date of Next Visit"
+        Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.BackColor = System.Drawing.Color.Transparent
+        Me.Label33.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.Label33.Location = New System.Drawing.Point(19, 294)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(149, 27)
+        Me.Label33.TabIndex = 25
+        Me.Label33.Text = "Vaccine Status"
+        Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.BackColor = System.Drawing.Color.Transparent
+        Me.Label34.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.Label34.Location = New System.Drawing.Point(19, 267)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(57, 27)
+        Me.Label34.TabIndex = 24
+        Me.Label34.Text = "Type"
+        Me.Label34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.BackColor = System.Drawing.Color.Transparent
+        Me.Label35.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.Label35.Location = New System.Drawing.Point(19, 240)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(79, 27)
+        Me.Label35.TabIndex = 23
+        Me.Label35.Text = "Weight"
+        Me.Label35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label24
         '
@@ -1389,109 +1661,112 @@ Partial Class Homepage
         Me.Label32.Text = "Name"
         Me.Label32.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label28
+        'Guna2Button3
         '
-        Me.Label28.AutoSize = True
-        Me.Label28.BackColor = System.Drawing.Color.Transparent
-        Me.Label28.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.Label28.Location = New System.Drawing.Point(19, 321)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(178, 27)
-        Me.Label28.TabIndex = 26
-        Me.Label28.Text = "Date of Next Visit"
-        Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2Button3.Animated = True
+        Me.Guna2Button3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Button3.BorderRadius = 10
+        Me.Guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button3.FillColor = System.Drawing.Color.RoyalBlue
+        Me.Guna2Button3.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button3.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button3.IndicateFocus = True
+        Me.Guna2Button3.Location = New System.Drawing.Point(598, 24)
+        Me.Guna2Button3.Name = "Guna2Button3"
+        Me.Guna2Button3.Size = New System.Drawing.Size(161, 47)
+        Me.Guna2Button3.TabIndex = 62
+        Me.Guna2Button3.Text = "Search"
         '
-        'Label33
+        'Guna2TextBox4
         '
-        Me.Label33.AutoSize = True
-        Me.Label33.BackColor = System.Drawing.Color.Transparent
-        Me.Label33.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.Label33.Location = New System.Drawing.Point(19, 294)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(149, 27)
-        Me.Label33.TabIndex = 25
-        Me.Label33.Text = "Vaccine Status"
-        Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2TextBox4.BorderColor = System.Drawing.Color.LightGray
+        Me.Guna2TextBox4.BorderRadius = 10
+        Me.Guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox4.DefaultText = ""
+        Me.Guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox4.Font = New System.Drawing.Font("Segoe UI Variable Display", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox4.Location = New System.Drawing.Point(8, 24)
+        Me.Guna2TextBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Guna2TextBox4.Name = "Guna2TextBox4"
+        Me.Guna2TextBox4.PlaceholderText = "Search Owner ID"
+        Me.Guna2TextBox4.SelectedText = ""
+        Me.Guna2TextBox4.Size = New System.Drawing.Size(567, 47)
+        Me.Guna2TextBox4.TabIndex = 61
         '
-        'Label34
+        'Guna2DataGridView2
         '
-        Me.Label34.AutoSize = True
-        Me.Label34.BackColor = System.Drawing.Color.Transparent
-        Me.Label34.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.Label34.Location = New System.Drawing.Point(19, 267)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(57, 27)
-        Me.Label34.TabIndex = 24
-        Me.Label34.Text = "Type"
-        Me.Label34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label35
-        '
-        Me.Label35.AutoSize = True
-        Me.Label35.BackColor = System.Drawing.Color.Transparent
-        Me.Label35.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.Label35.Location = New System.Drawing.Point(19, 240)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(79, 27)
-        Me.Label35.TabIndex = 23
-        Me.Label35.Text = "Weight"
-        Me.Label35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.BackColor = System.Drawing.Color.Transparent
-        Me.Label36.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label36.Location = New System.Drawing.Point(218, 324)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(155, 24)
-        Me.Label36.TabIndex = 30
-        Me.Label36.Text = "Date of Next Visit"
-        Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.BackColor = System.Drawing.Color.Transparent
-        Me.Label37.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label37.Location = New System.Drawing.Point(218, 297)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(129, 24)
-        Me.Label37.TabIndex = 29
-        Me.Label37.Text = "Vaccine Status"
-        Me.Label37.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.BackColor = System.Drawing.Color.Transparent
-        Me.Label38.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label38.Location = New System.Drawing.Point(218, 270)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(49, 24)
-        Me.Label38.TabIndex = 28
-        Me.Label38.Text = "Type"
-        Me.Label38.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.BackColor = System.Drawing.Color.Transparent
-        Me.Label39.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label39.Location = New System.Drawing.Point(218, 243)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(69, 24)
-        Me.Label39.TabIndex = 27
-        Me.Label39.Text = "Weight"
-        Me.Label39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2DataGridView2.AllowUserToResizeRows = False
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Guna2DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        DataGridViewCellStyle10.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        DataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle10
+        Me.Guna2DataGridView2.ColumnHeadersHeight = 30
+        Me.Guna2DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.Guna2DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.petID, Me.petName, Me.petOwner, Me.petType, Me.petVac, Me.petVisit})
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle11.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle11.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView2.DefaultCellStyle = DataGridViewCellStyle11
+        Me.Guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2DataGridView2.Location = New System.Drawing.Point(8, 77)
+        Me.Guna2DataGridView2.Name = "Guna2DataGridView2"
+        Me.Guna2DataGridView2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView2.RowHeadersDefaultCellStyle = DataGridViewCellStyle12
+        Me.Guna2DataGridView2.RowHeadersVisible = False
+        Me.Guna2DataGridView2.RowHeadersWidth = 62
+        Me.Guna2DataGridView2.RowTemplate.Height = 28
+        Me.Guna2DataGridView2.Size = New System.Drawing.Size(751, 499)
+        Me.Guna2DataGridView2.TabIndex = 60
+        Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Guna2DataGridView2.ThemeStyle.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView2.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI Variable Display", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.Guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 30
+        Me.Guna2DataGridView2.ThemeStyle.ReadOnly = False
+        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.Height = 28
+        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         '
         'petID
         '
@@ -1540,18 +1815,6 @@ Partial Class Homepage
         Me.tabApps.TabIndex = 4
         Me.tabApps.Text = "Appoinments"
         Me.tabApps.UseVisualStyleBackColor = True
-        '
-        'tabPay
-        '
-        Me.tabPay.Controls.Add(Me.Guna2DataGridView4)
-        Me.tabPay.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tabPay.Location = New System.Drawing.Point(4, 44)
-        Me.tabPay.Name = "tabPay"
-        Me.tabPay.Padding = New System.Windows.Forms.Padding(3)
-        Me.tabPay.Size = New System.Drawing.Size(1363, 607)
-        Me.tabPay.TabIndex = 5
-        Me.tabPay.Text = "Payment"
-        Me.tabPay.UseVisualStyleBackColor = True
         '
         'Guna2TabControl2
         '
@@ -1609,272 +1872,26 @@ Partial Class Homepage
         Me.tabcreateApp.TabIndex = 0
         Me.tabcreateApp.Text = "Create"
         '
-        'tabViewApp
+        'Guna2Button10
         '
-        Me.tabViewApp.Controls.Add(Me.Guna2GroupBox4)
-        Me.tabViewApp.Controls.Add(Me.Guna2Button11)
-        Me.tabViewApp.Controls.Add(Me.Guna2TextBox8)
-        Me.tabViewApp.Controls.Add(Me.Guna2DataGridView3)
-        Me.tabViewApp.Location = New System.Drawing.Point(184, 4)
-        Me.tabViewApp.Name = "tabViewApp"
-        Me.tabViewApp.Padding = New System.Windows.Forms.Padding(3)
-        Me.tabViewApp.Size = New System.Drawing.Size(1162, 587)
-        Me.tabViewApp.TabIndex = 1
-        Me.tabViewApp.Text = "View"
-        Me.tabViewApp.UseVisualStyleBackColor = True
-        '
-        'Guna2DateTimePicker3
-        '
-        Me.Guna2DateTimePicker3.BackColor = System.Drawing.Color.White
-        Me.Guna2DateTimePicker3.BorderRadius = 10
-        Me.Guna2DateTimePicker3.Checked = True
-        Me.Guna2DateTimePicker3.FillColor = System.Drawing.Color.RoyalBlue
-        Me.Guna2DateTimePicker3.Font = New System.Drawing.Font("Segoe UI Variable Text", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DateTimePicker3.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.Guna2DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Long]
-        Me.Guna2DateTimePicker3.Location = New System.Drawing.Point(23, 390)
-        Me.Guna2DateTimePicker3.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        Me.Guna2DateTimePicker3.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
-        Me.Guna2DateTimePicker3.Name = "Guna2DateTimePicker3"
-        Me.Guna2DateTimePicker3.Size = New System.Drawing.Size(241, 36)
-        Me.Guna2DateTimePicker3.TabIndex = 53
-        Me.Guna2DateTimePicker3.Value = New Date(2025, 10, 9, 23, 37, 10, 327)
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.BackColor = System.Drawing.Color.Transparent
-        Me.Label41.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.ForeColor = System.Drawing.Color.DimGray
-        Me.Label41.Location = New System.Drawing.Point(28, 228)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(39, 27)
-        Me.Label41.TabIndex = 52
-        Me.Label41.Text = "Pet"
-        Me.Label41.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'Guna2ComboBox3
-        '
-        Me.Guna2ComboBox3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ComboBox3.BorderRadius = 10
-        Me.Guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.Guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Guna2ComboBox3.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox3.Font = New System.Drawing.Font("Segoe UI Variable Text", 11.0!)
-        Me.Guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2ComboBox3.ItemHeight = 30
-        Me.Guna2ComboBox3.Location = New System.Drawing.Point(157, 228)
-        Me.Guna2ComboBox3.Name = "Guna2ComboBox3"
-        Me.Guna2ComboBox3.Size = New System.Drawing.Size(155, 36)
-        Me.Guna2ComboBox3.StartIndex = 0
-        Me.Guna2ComboBox3.TabIndex = 51
-        '
-        'Label43
-        '
-        Me.Label43.AutoSize = True
-        Me.Label43.BackColor = System.Drawing.Color.Transparent
-        Me.Label43.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label43.Location = New System.Drawing.Point(19, 55)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(232, 24)
-        Me.Label43.TabIndex = 45
-        Me.Label43.Text = "OWNER AND PET RECORD"
-        '
-        'Guna2TextBox6
-        '
-        Me.Guna2TextBox6.BorderColor = System.Drawing.Color.LightGray
-        Me.Guna2TextBox6.BorderRadius = 10
-        Me.Guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox6.DefaultText = ""
-        Me.Guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox6.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
-        Me.Guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox6.Location = New System.Drawing.Point(23, 98)
-        Me.Guna2TextBox6.Margin = New System.Windows.Forms.Padding(4)
-        Me.Guna2TextBox6.Name = "Guna2TextBox6"
-        Me.Guna2TextBox6.PlaceholderText = "Owner ID"
-        Me.Guna2TextBox6.SelectedText = ""
-        Me.Guna2TextBox6.Size = New System.Drawing.Size(289, 48)
-        Me.Guna2TextBox6.TabIndex = 47
-        '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.BackColor = System.Drawing.Color.Transparent
-        Me.Label44.Font = New System.Drawing.Font("Segoe UI Variable Display", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.ForeColor = System.Drawing.Color.Black
-        Me.Label44.Location = New System.Drawing.Point(15, 12)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(370, 43)
-        Me.Label44.TabIndex = 46
-        Me.Label44.Text = "CREATE APPOINTMENT"
-        Me.Label44.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.BackColor = System.Drawing.Color.Transparent
-        Me.Label42.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.ForeColor = System.Drawing.Color.DimGray
-        Me.Label42.Location = New System.Drawing.Point(28, 279)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(102, 27)
-        Me.Label42.TabIndex = 57
-        Me.Label42.Text = "Procedure"
-        Me.Label42.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'Guna2ComboBox4
-        '
-        Me.Guna2ComboBox4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ComboBox4.BorderRadius = 10
-        Me.Guna2ComboBox4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.Guna2ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Guna2ComboBox4.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox4.Font = New System.Drawing.Font("Segoe UI Variable Text", 11.0!)
-        Me.Guna2ComboBox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2ComboBox4.ItemHeight = 30
-        Me.Guna2ComboBox4.Items.AddRange(New Object() {"Checkup", "Vaccine", "Checkup+Vaccine"})
-        Me.Guna2ComboBox4.Location = New System.Drawing.Point(157, 270)
-        Me.Guna2ComboBox4.Name = "Guna2ComboBox4"
-        Me.Guna2ComboBox4.Size = New System.Drawing.Size(155, 36)
-        Me.Guna2ComboBox4.TabIndex = 56
-        '
-        'Guna2TextBox5
-        '
-        Me.Guna2TextBox5.BorderColor = System.Drawing.Color.LightGray
-        Me.Guna2TextBox5.BorderRadius = 10
-        Me.Guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox5.DefaultText = ""
-        Me.Guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox5.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
-        Me.Guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox5.Location = New System.Drawing.Point(23, 154)
-        Me.Guna2TextBox5.Margin = New System.Windows.Forms.Padding(4)
-        Me.Guna2TextBox5.Name = "Guna2TextBox5"
-        Me.Guna2TextBox5.PlaceholderText = "Owner Name"
-        Me.Guna2TextBox5.SelectedText = ""
-        Me.Guna2TextBox5.Size = New System.Drawing.Size(486, 48)
-        Me.Guna2TextBox5.TabIndex = 58
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.BackColor = System.Drawing.Color.Transparent
-        Me.Label40.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label40.Location = New System.Drawing.Point(19, 354)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(278, 24)
-        Me.Label40.TabIndex = 59
-        Me.Label40.Text = "APPOINTMENT DATE AND TIME"
-        '
-        'Guna2Button4
-        '
-        Me.Guna2Button4.Animated = True
-        Me.Guna2Button4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.BorderColor = System.Drawing.Color.LightGray
-        Me.Guna2Button4.BorderRadius = 10
-        Me.Guna2Button4.BorderThickness = 1
-        Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button4.FillColor = System.Drawing.Color.White
-        Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button4.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Guna2Button4.IndicateFocus = True
-        Me.Guna2Button4.Location = New System.Drawing.Point(431, 390)
-        Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.Size = New System.Drawing.Size(190, 36)
-        Me.Guna2Button4.TabIndex = 60
-        Me.Guna2Button4.Text = "Check Availability"
-        '
-        'Guna2Button5
-        '
-        Me.Guna2Button5.Animated = True
-        Me.Guna2Button5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button5.BorderRadius = 10
-        Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button5.FillColor = System.Drawing.Color.RoyalBlue
-        Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button5.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button5.IndicateFocus = True
-        Me.Guna2Button5.Location = New System.Drawing.Point(295, 472)
-        Me.Guna2Button5.Name = "Guna2Button5"
-        Me.Guna2Button5.Size = New System.Drawing.Size(326, 71)
-        Me.Guna2Button5.TabIndex = 61
-        Me.Guna2Button5.Text = "Confirm"
-        '
-        'Guna2Button6
-        '
-        Me.Guna2Button6.Animated = True
-        Me.Guna2Button6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button6.BorderRadius = 10
-        Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button6.FillColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2Button6.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button6.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button6.IndicateFocus = True
-        Me.Guna2Button6.Location = New System.Drawing.Point(23, 472)
-        Me.Guna2Button6.Name = "Guna2Button6"
-        Me.Guna2Button6.Size = New System.Drawing.Size(241, 71)
-        Me.Guna2Button6.TabIndex = 62
-        Me.Guna2Button6.Text = "Cancel"
-        '
-        'Guna2ComboBox5
-        '
-        Me.Guna2ComboBox5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ComboBox5.BorderRadius = 10
-        Me.Guna2ComboBox5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.Guna2ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Guna2ComboBox5.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox5.Font = New System.Drawing.Font("Segoe UI Variable Text", 11.0!)
-        Me.Guna2ComboBox5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2ComboBox5.ItemHeight = 30
-        Me.Guna2ComboBox5.Items.AddRange(New Object() {"8AM", "9AM", "10AM", "11AM", "1PM", "2PM", "3PM", "4PM", "5PM", "6PM", "7PM"})
-        Me.Guna2ComboBox5.Location = New System.Drawing.Point(270, 390)
-        Me.Guna2ComboBox5.Name = "Guna2ComboBox5"
-        Me.Guna2ComboBox5.Size = New System.Drawing.Size(155, 36)
-        Me.Guna2ComboBox5.TabIndex = 63
-        '
-        'Guna2Button8
-        '
-        Me.Guna2Button8.Animated = True
-        Me.Guna2Button8.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button8.BorderColor = System.Drawing.Color.LightGray
-        Me.Guna2Button8.BorderRadius = 10
-        Me.Guna2Button8.BorderThickness = 1
-        Me.Guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button8.FillColor = System.Drawing.Color.White
-        Me.Guna2Button8.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button8.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Guna2Button8.IndicateFocus = True
-        Me.Guna2Button8.Location = New System.Drawing.Point(319, 98)
-        Me.Guna2Button8.Name = "Guna2Button8"
-        Me.Guna2Button8.Size = New System.Drawing.Size(190, 49)
-        Me.Guna2Button8.TabIndex = 64
-        Me.Guna2Button8.Text = "Verify"
+        Me.Guna2Button10.Animated = True
+        Me.Guna2Button10.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Button10.BorderColor = System.Drawing.Color.LightGray
+        Me.Guna2Button10.BorderRadius = 10
+        Me.Guna2Button10.BorderThickness = 1
+        Me.Guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button10.FillColor = System.Drawing.Color.White
+        Me.Guna2Button10.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button10.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.Guna2Button10.IndicateFocus = True
+        Me.Guna2Button10.Location = New System.Drawing.Point(329, 270)
+        Me.Guna2Button10.Name = "Guna2Button10"
+        Me.Guna2Button10.Size = New System.Drawing.Size(190, 36)
+        Me.Guna2Button10.TabIndex = 66
+        Me.Guna2Button10.Text = "View Prices"
         '
         'Guna2GroupBox3
         '
@@ -1916,6 +1933,126 @@ Partial Class Homepage
         Me.Guna2Panel6.Name = "Guna2Panel6"
         Me.Guna2Panel6.Size = New System.Drawing.Size(574, 506)
         Me.Guna2Panel6.TabIndex = 0
+        '
+        'Guna2Button9
+        '
+        Me.Guna2Button9.Animated = True
+        Me.Guna2Button9.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Button9.BorderColor = System.Drawing.Color.RoyalBlue
+        Me.Guna2Button9.BorderRadius = 10
+        Me.Guna2Button9.BorderThickness = 1
+        Me.Guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button9.FillColor = System.Drawing.Color.AliceBlue
+        Me.Guna2Button9.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button9.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.Guna2Button9.IndicateFocus = True
+        Me.Guna2Button9.Location = New System.Drawing.Point(40, 431)
+        Me.Guna2Button9.Name = "Guna2Button9"
+        Me.Guna2Button9.Size = New System.Drawing.Size(413, 57)
+        Me.Guna2Button9.TabIndex = 66
+        Me.Guna2Button9.Text = "Confirm Payment"
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.BackColor = System.Drawing.Color.Transparent
+        Me.Label63.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label63.Location = New System.Drawing.Point(234, 387)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(60, 24)
+        Me.Label63.TabIndex = 72
+        Me.Label63.Text = "00000"
+        Me.Label63.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.BackColor = System.Drawing.Color.Transparent
+        Me.Label64.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label64.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.Label64.Location = New System.Drawing.Point(35, 384)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(84, 27)
+        Me.Label64.TabIndex = 71
+        Me.Label64.Text = "Change"
+        Me.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label53
+        '
+        Me.Label53.AutoSize = True
+        Me.Label53.BackColor = System.Drawing.Color.Transparent
+        Me.Label53.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label53.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label53.Location = New System.Drawing.Point(234, 360)
+        Me.Label53.Name = "Label53"
+        Me.Label53.Size = New System.Drawing.Size(60, 24)
+        Me.Label53.TabIndex = 70
+        Me.Label53.Text = "00000"
+        Me.Label53.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.BackColor = System.Drawing.Color.Transparent
+        Me.Label57.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label57.Location = New System.Drawing.Point(234, 333)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(70, 24)
+        Me.Label57.TabIndex = 69
+        Me.Label57.Text = "000000"
+        Me.Label57.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.BackColor = System.Drawing.Color.Transparent
+        Me.Label61.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.Label61.Location = New System.Drawing.Point(35, 357)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(58, 27)
+        Me.Label61.TabIndex = 68
+        Me.Label61.Text = "Cash"
+        Me.Label61.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label62
+        '
+        Me.Label62.AutoSize = True
+        Me.Label62.BackColor = System.Drawing.Color.Transparent
+        Me.Label62.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label62.ForeColor = System.Drawing.Color.LightSlateGray
+        Me.Label62.Location = New System.Drawing.Point(35, 330)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(58, 27)
+        Me.Label62.TabIndex = 67
+        Me.Label62.Text = "Total"
+        Me.Label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Guna2TextBox7
+        '
+        Me.Guna2TextBox7.BorderColor = System.Drawing.Color.LightGray
+        Me.Guna2TextBox7.BorderRadius = 10
+        Me.Guna2TextBox7.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox7.DefaultText = ""
+        Me.Guna2TextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox7.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
+        Me.Guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox7.Location = New System.Drawing.Point(30, 258)
+        Me.Guna2TextBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2TextBox7.Name = "Guna2TextBox7"
+        Me.Guna2TextBox7.PlaceholderText = "Cash Tendered"
+        Me.Guna2TextBox7.SelectedText = ""
+        Me.Guna2TextBox7.Size = New System.Drawing.Size(275, 49)
+        Me.Guna2TextBox7.TabIndex = 66
         '
         'Label45
         '
@@ -2099,252 +2236,271 @@ Partial Class Homepage
         Me.Label60.Text = "Name"
         Me.Label60.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Guna2TextBox7
+        'Guna2Button8
         '
-        Me.Guna2TextBox7.BorderColor = System.Drawing.Color.LightGray
-        Me.Guna2TextBox7.BorderRadius = 10
-        Me.Guna2TextBox7.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox7.DefaultText = ""
-        Me.Guna2TextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox7.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
-        Me.Guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox7.Location = New System.Drawing.Point(30, 258)
-        Me.Guna2TextBox7.Margin = New System.Windows.Forms.Padding(4)
-        Me.Guna2TextBox7.Name = "Guna2TextBox7"
-        Me.Guna2TextBox7.PlaceholderText = "Cash Tendered"
-        Me.Guna2TextBox7.SelectedText = ""
-        Me.Guna2TextBox7.Size = New System.Drawing.Size(275, 49)
-        Me.Guna2TextBox7.TabIndex = 66
+        Me.Guna2Button8.Animated = True
+        Me.Guna2Button8.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Button8.BorderColor = System.Drawing.Color.LightGray
+        Me.Guna2Button8.BorderRadius = 10
+        Me.Guna2Button8.BorderThickness = 1
+        Me.Guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button8.FillColor = System.Drawing.Color.White
+        Me.Guna2Button8.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button8.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.Guna2Button8.IndicateFocus = True
+        Me.Guna2Button8.Location = New System.Drawing.Point(319, 98)
+        Me.Guna2Button8.Name = "Guna2Button8"
+        Me.Guna2Button8.Size = New System.Drawing.Size(190, 49)
+        Me.Guna2Button8.TabIndex = 64
+        Me.Guna2Button8.Text = "Verify"
         '
-        'Label53
+        'Guna2ComboBox5
         '
-        Me.Label53.AutoSize = True
-        Me.Label53.BackColor = System.Drawing.Color.Transparent
-        Me.Label53.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label53.Location = New System.Drawing.Point(234, 360)
-        Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(60, 24)
-        Me.Label53.TabIndex = 70
-        Me.Label53.Text = "00000"
-        Me.Label53.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2ComboBox5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ComboBox5.BorderRadius = 10
+        Me.Guna2ComboBox5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.Guna2ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Guna2ComboBox5.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2ComboBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2ComboBox5.Font = New System.Drawing.Font("Segoe UI Variable Text", 11.0!)
+        Me.Guna2ComboBox5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Guna2ComboBox5.ItemHeight = 30
+        Me.Guna2ComboBox5.Items.AddRange(New Object() {"8AM", "9AM", "10AM", "11AM", "1PM", "2PM", "3PM", "4PM", "5PM", "6PM", "7PM"})
+        Me.Guna2ComboBox5.Location = New System.Drawing.Point(270, 390)
+        Me.Guna2ComboBox5.Name = "Guna2ComboBox5"
+        Me.Guna2ComboBox5.Size = New System.Drawing.Size(155, 36)
+        Me.Guna2ComboBox5.TabIndex = 63
         '
-        'Label57
+        'Guna2Button6
         '
-        Me.Label57.AutoSize = True
-        Me.Label57.BackColor = System.Drawing.Color.Transparent
-        Me.Label57.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label57.Location = New System.Drawing.Point(234, 333)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(70, 24)
-        Me.Label57.TabIndex = 69
-        Me.Label57.Text = "000000"
-        Me.Label57.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2Button6.Animated = True
+        Me.Guna2Button6.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Button6.BorderRadius = 10
+        Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button6.FillColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Guna2Button6.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button6.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button6.IndicateFocus = True
+        Me.Guna2Button6.Location = New System.Drawing.Point(23, 472)
+        Me.Guna2Button6.Name = "Guna2Button6"
+        Me.Guna2Button6.Size = New System.Drawing.Size(241, 71)
+        Me.Guna2Button6.TabIndex = 62
+        Me.Guna2Button6.Text = "Cancel"
         '
-        'Label61
+        'Guna2Button5
         '
-        Me.Label61.AutoSize = True
-        Me.Label61.BackColor = System.Drawing.Color.Transparent
-        Me.Label61.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.Label61.Location = New System.Drawing.Point(35, 357)
-        Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(58, 27)
-        Me.Label61.TabIndex = 68
-        Me.Label61.Text = "Cash"
-        Me.Label61.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2Button5.Animated = True
+        Me.Guna2Button5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Button5.BorderRadius = 10
+        Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button5.FillColor = System.Drawing.Color.RoyalBlue
+        Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button5.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button5.IndicateFocus = True
+        Me.Guna2Button5.Location = New System.Drawing.Point(295, 472)
+        Me.Guna2Button5.Name = "Guna2Button5"
+        Me.Guna2Button5.Size = New System.Drawing.Size(326, 71)
+        Me.Guna2Button5.TabIndex = 61
+        Me.Guna2Button5.Text = "Confirm"
         '
-        'Label62
+        'Guna2Button4
         '
-        Me.Label62.AutoSize = True
-        Me.Label62.BackColor = System.Drawing.Color.Transparent
-        Me.Label62.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label62.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.Label62.Location = New System.Drawing.Point(35, 330)
-        Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(58, 27)
-        Me.Label62.TabIndex = 67
-        Me.Label62.Text = "Total"
-        Me.Label62.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2Button4.Animated = True
+        Me.Guna2Button4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Button4.BorderColor = System.Drawing.Color.LightGray
+        Me.Guna2Button4.BorderRadius = 10
+        Me.Guna2Button4.BorderThickness = 1
+        Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button4.FillColor = System.Drawing.Color.White
+        Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button4.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.Guna2Button4.IndicateFocus = True
+        Me.Guna2Button4.Location = New System.Drawing.Point(431, 390)
+        Me.Guna2Button4.Name = "Guna2Button4"
+        Me.Guna2Button4.Size = New System.Drawing.Size(190, 36)
+        Me.Guna2Button4.TabIndex = 60
+        Me.Guna2Button4.Text = "Check Availability"
         '
-        'Label63
+        'Label40
         '
-        Me.Label63.AutoSize = True
-        Me.Label63.BackColor = System.Drawing.Color.Transparent
-        Me.Label63.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label63.Location = New System.Drawing.Point(234, 387)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(60, 24)
-        Me.Label63.TabIndex = 72
-        Me.Label63.Text = "00000"
-        Me.Label63.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Label40.AutoSize = True
+        Me.Label40.BackColor = System.Drawing.Color.Transparent
+        Me.Label40.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label40.Location = New System.Drawing.Point(19, 354)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(278, 24)
+        Me.Label40.TabIndex = 59
+        Me.Label40.Text = "APPOINTMENT DATE AND TIME"
         '
-        'Label64
+        'Guna2TextBox5
         '
-        Me.Label64.AutoSize = True
-        Me.Label64.BackColor = System.Drawing.Color.Transparent
-        Me.Label64.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label64.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.Label64.Location = New System.Drawing.Point(35, 384)
-        Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(84, 27)
-        Me.Label64.TabIndex = 71
-        Me.Label64.Text = "Change"
-        Me.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2TextBox5.BorderColor = System.Drawing.Color.LightGray
+        Me.Guna2TextBox5.BorderRadius = 10
+        Me.Guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox5.DefaultText = ""
+        Me.Guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox5.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
+        Me.Guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox5.Location = New System.Drawing.Point(23, 154)
+        Me.Guna2TextBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2TextBox5.Name = "Guna2TextBox5"
+        Me.Guna2TextBox5.PlaceholderText = "Owner Name"
+        Me.Guna2TextBox5.SelectedText = ""
+        Me.Guna2TextBox5.Size = New System.Drawing.Size(486, 48)
+        Me.Guna2TextBox5.TabIndex = 58
         '
-        'Guna2Button9
+        'Label42
         '
-        Me.Guna2Button9.Animated = True
-        Me.Guna2Button9.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button9.BorderColor = System.Drawing.Color.RoyalBlue
-        Me.Guna2Button9.BorderRadius = 10
-        Me.Guna2Button9.BorderThickness = 1
-        Me.Guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button9.FillColor = System.Drawing.Color.AliceBlue
-        Me.Guna2Button9.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button9.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Guna2Button9.IndicateFocus = True
-        Me.Guna2Button9.Location = New System.Drawing.Point(40, 431)
-        Me.Guna2Button9.Name = "Guna2Button9"
-        Me.Guna2Button9.Size = New System.Drawing.Size(413, 57)
-        Me.Guna2Button9.TabIndex = 66
-        Me.Guna2Button9.Text = "Confirm Payment"
+        Me.Label42.AutoSize = True
+        Me.Label42.BackColor = System.Drawing.Color.Transparent
+        Me.Label42.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.ForeColor = System.Drawing.Color.DimGray
+        Me.Label42.Location = New System.Drawing.Point(28, 279)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(102, 27)
+        Me.Label42.TabIndex = 57
+        Me.Label42.Text = "Procedure"
+        Me.Label42.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'Guna2Button10
+        'Guna2ComboBox4
         '
-        Me.Guna2Button10.Animated = True
-        Me.Guna2Button10.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button10.BorderColor = System.Drawing.Color.LightGray
-        Me.Guna2Button10.BorderRadius = 10
-        Me.Guna2Button10.BorderThickness = 1
-        Me.Guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button10.FillColor = System.Drawing.Color.White
-        Me.Guna2Button10.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button10.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Guna2Button10.IndicateFocus = True
-        Me.Guna2Button10.Location = New System.Drawing.Point(329, 270)
-        Me.Guna2Button10.Name = "Guna2Button10"
-        Me.Guna2Button10.Size = New System.Drawing.Size(190, 36)
-        Me.Guna2Button10.TabIndex = 66
-        Me.Guna2Button10.Text = "View Prices"
+        Me.Guna2ComboBox4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ComboBox4.BorderRadius = 10
+        Me.Guna2ComboBox4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.Guna2ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Guna2ComboBox4.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2ComboBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2ComboBox4.Font = New System.Drawing.Font("Segoe UI Variable Text", 11.0!)
+        Me.Guna2ComboBox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Guna2ComboBox4.ItemHeight = 30
+        Me.Guna2ComboBox4.Items.AddRange(New Object() {"Checkup", "Vaccine", "Checkup+Vaccine"})
+        Me.Guna2ComboBox4.Location = New System.Drawing.Point(157, 270)
+        Me.Guna2ComboBox4.Name = "Guna2ComboBox4"
+        Me.Guna2ComboBox4.Size = New System.Drawing.Size(155, 36)
+        Me.Guna2ComboBox4.TabIndex = 56
         '
-        'Guna2Button11
+        'Guna2DateTimePicker3
         '
-        Me.Guna2Button11.Animated = True
-        Me.Guna2Button11.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button11.BorderRadius = 10
-        Me.Guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button11.FillColor = System.Drawing.Color.RoyalBlue
-        Me.Guna2Button11.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button11.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button11.IndicateFocus = True
-        Me.Guna2Button11.Location = New System.Drawing.Point(436, 16)
-        Me.Guna2Button11.Name = "Guna2Button11"
-        Me.Guna2Button11.Size = New System.Drawing.Size(203, 47)
-        Me.Guna2Button11.TabIndex = 62
-        Me.Guna2Button11.Text = "Search"
+        Me.Guna2DateTimePicker3.BackColor = System.Drawing.Color.White
+        Me.Guna2DateTimePicker3.BorderRadius = 10
+        Me.Guna2DateTimePicker3.Checked = True
+        Me.Guna2DateTimePicker3.FillColor = System.Drawing.Color.RoyalBlue
+        Me.Guna2DateTimePicker3.Font = New System.Drawing.Font("Segoe UI Variable Text", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DateTimePicker3.ForeColor = System.Drawing.SystemColors.InactiveBorder
+        Me.Guna2DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Long]
+        Me.Guna2DateTimePicker3.Location = New System.Drawing.Point(23, 390)
+        Me.Guna2DateTimePicker3.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        Me.Guna2DateTimePicker3.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Me.Guna2DateTimePicker3.Name = "Guna2DateTimePicker3"
+        Me.Guna2DateTimePicker3.Size = New System.Drawing.Size(241, 36)
+        Me.Guna2DateTimePicker3.TabIndex = 53
+        Me.Guna2DateTimePicker3.Value = New Date(2025, 10, 9, 23, 37, 10, 327)
         '
-        'Guna2TextBox8
+        'Label41
         '
-        Me.Guna2TextBox8.BorderColor = System.Drawing.Color.LightGray
-        Me.Guna2TextBox8.BorderRadius = 10
-        Me.Guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox8.DefaultText = ""
-        Me.Guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox8.Font = New System.Drawing.Font("Segoe UI Variable Display", 8.0!)
-        Me.Guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox8.Location = New System.Drawing.Point(21, 16)
-        Me.Guna2TextBox8.Name = "Guna2TextBox8"
-        Me.Guna2TextBox8.PlaceholderText = "Search Appointment ID"
-        Me.Guna2TextBox8.SelectedText = ""
-        Me.Guna2TextBox8.Size = New System.Drawing.Size(409, 47)
-        Me.Guna2TextBox8.TabIndex = 61
+        Me.Label41.AutoSize = True
+        Me.Label41.BackColor = System.Drawing.Color.Transparent
+        Me.Label41.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.ForeColor = System.Drawing.Color.DimGray
+        Me.Label41.Location = New System.Drawing.Point(28, 228)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(39, 27)
+        Me.Label41.TabIndex = 52
+        Me.Label41.Text = "Pet"
+        Me.Label41.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'Guna2DataGridView3
+        'Guna2ComboBox3
         '
-        Me.Guna2DataGridView3.AllowUserToResizeRows = False
-        DataGridViewCellStyle29.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle29.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle29.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.Guna2DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle29
-        DataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle30.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        DataGridViewCellStyle30.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle30.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        DataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle30
-        Me.Guna2DataGridView3.ColumnHeadersHeight = 30
-        Me.Guna2DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.Guna2DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.appID, Me.appDate, Me.appTime, Me.appOwner, Me.appPet, Me.appType, Me.appStat})
-        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle31.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle31.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle31.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle31.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView3.DefaultCellStyle = DataGridViewCellStyle31
-        Me.Guna2DataGridView3.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView3.Location = New System.Drawing.Point(21, 69)
-        Me.Guna2DataGridView3.Name = "Guna2DataGridView3"
-        Me.Guna2DataGridView3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle32.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle32.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle32.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle32
-        Me.Guna2DataGridView3.RowHeadersVisible = False
-        Me.Guna2DataGridView3.RowHeadersWidth = 62
-        Me.Guna2DataGridView3.RowTemplate.Height = 28
-        Me.Guna2DataGridView3.Size = New System.Drawing.Size(741, 499)
-        Me.Guna2DataGridView3.TabIndex = 60
-        Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.Guna2DataGridView3.ThemeStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView3.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI Variable Display", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
-        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.Height = 30
-        Me.Guna2DataGridView3.ThemeStyle.ReadOnly = False
-        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
-        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black
-        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.Height = 28
-        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Guna2ComboBox3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ComboBox3.BorderRadius = 10
+        Me.Guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.Guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Guna2ComboBox3.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2ComboBox3.Font = New System.Drawing.Font("Segoe UI Variable Text", 11.0!)
+        Me.Guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Guna2ComboBox3.ItemHeight = 30
+        Me.Guna2ComboBox3.Location = New System.Drawing.Point(157, 228)
+        Me.Guna2ComboBox3.Name = "Guna2ComboBox3"
+        Me.Guna2ComboBox3.Size = New System.Drawing.Size(155, 36)
+        Me.Guna2ComboBox3.TabIndex = 51
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.BackColor = System.Drawing.Color.Transparent
+        Me.Label43.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label43.Location = New System.Drawing.Point(19, 55)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(232, 24)
+        Me.Label43.TabIndex = 45
+        Me.Label43.Text = "OWNER AND PET RECORD"
+        '
+        'Guna2TextBox6
+        '
+        Me.Guna2TextBox6.BorderColor = System.Drawing.Color.LightGray
+        Me.Guna2TextBox6.BorderRadius = 10
+        Me.Guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox6.DefaultText = ""
+        Me.Guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox6.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!)
+        Me.Guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox6.Location = New System.Drawing.Point(23, 98)
+        Me.Guna2TextBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2TextBox6.Name = "Guna2TextBox6"
+        Me.Guna2TextBox6.PlaceholderText = "Owner ID"
+        Me.Guna2TextBox6.SelectedText = ""
+        Me.Guna2TextBox6.Size = New System.Drawing.Size(289, 48)
+        Me.Guna2TextBox6.TabIndex = 47
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.BackColor = System.Drawing.Color.Transparent
+        Me.Label44.Font = New System.Drawing.Font("Segoe UI Variable Display", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.ForeColor = System.Drawing.Color.Black
+        Me.Label44.Location = New System.Drawing.Point(15, 12)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(370, 43)
+        Me.Label44.TabIndex = 46
+        Me.Label44.Text = "CREATE APPOINTMENT"
+        Me.Label44.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'tabViewApp
+        '
+        Me.tabViewApp.Controls.Add(Me.Guna2GroupBox4)
+        Me.tabViewApp.Controls.Add(Me.Guna2Button11)
+        Me.tabViewApp.Controls.Add(Me.Guna2TextBox8)
+        Me.tabViewApp.Controls.Add(Me.Guna2DataGridView3)
+        Me.tabViewApp.Location = New System.Drawing.Point(184, 4)
+        Me.tabViewApp.Name = "tabViewApp"
+        Me.tabViewApp.Padding = New System.Windows.Forms.Padding(3)
+        Me.tabViewApp.Size = New System.Drawing.Size(1162, 587)
+        Me.tabViewApp.TabIndex = 1
+        Me.tabViewApp.Text = "View"
+        Me.tabViewApp.UseVisualStyleBackColor = True
         '
         'Guna2GroupBox4
         '
@@ -2360,9 +2516,6 @@ Partial Class Homepage
         '
         'Guna2Panel7
         '
-        Me.Guna2Panel7.Controls.Add(Me.Label65)
-        Me.Guna2Panel7.Controls.Add(Me.Label66)
-        Me.Guna2Panel7.Controls.Add(Me.Guna2Button12)
         Me.Guna2Panel7.Controls.Add(Me.Label71)
         Me.Guna2Panel7.Controls.Add(Me.Label72)
         Me.Guna2Panel7.Controls.Add(Me.Label73)
@@ -2381,27 +2534,6 @@ Partial Class Homepage
         Me.Guna2Panel7.Name = "Guna2Panel7"
         Me.Guna2Panel7.Size = New System.Drawing.Size(574, 506)
         Me.Guna2Panel7.TabIndex = 0
-        '
-        'Guna2Button12
-        '
-        Me.Guna2Button12.Animated = True
-        Me.Guna2Button12.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button12.BorderColor = System.Drawing.Color.RoyalBlue
-        Me.Guna2Button12.BorderRadius = 10
-        Me.Guna2Button12.BorderThickness = 1
-        Me.Guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button12.FillColor = System.Drawing.Color.AliceBlue
-        Me.Guna2Button12.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button12.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Guna2Button12.IndicateFocus = True
-        Me.Guna2Button12.Location = New System.Drawing.Point(94, 423)
-        Me.Guna2Button12.Name = "Guna2Button12"
-        Me.Guna2Button12.Size = New System.Drawing.Size(227, 57)
-        Me.Guna2Button12.TabIndex = 66
-        Me.Guna2Button12.Text = "Mark As Completed"
         '
         'Label71
         '
@@ -2585,31 +2717,112 @@ Partial Class Homepage
         Me.Label84.Text = "Name"
         Me.Label84.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Label65
+        'Guna2Button11
         '
-        Me.Label65.AutoSize = True
-        Me.Label65.BackColor = System.Drawing.Color.Transparent
-        Me.Label65.Font = New System.Drawing.Font("Segoe UI Variable Small", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label65.Location = New System.Drawing.Point(150, 260)
-        Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(98, 24)
-        Me.Label65.TabIndex = 68
-        Me.Label65.Text = "Scheduled"
-        Me.Label65.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2Button11.Animated = True
+        Me.Guna2Button11.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Button11.BorderRadius = 10
+        Me.Guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button11.FillColor = System.Drawing.Color.RoyalBlue
+        Me.Guna2Button11.Font = New System.Drawing.Font("Segoe UI Variable Display", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button11.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button11.IndicateFocus = True
+        Me.Guna2Button11.Location = New System.Drawing.Point(436, 16)
+        Me.Guna2Button11.Name = "Guna2Button11"
+        Me.Guna2Button11.Size = New System.Drawing.Size(203, 47)
+        Me.Guna2Button11.TabIndex = 62
+        Me.Guna2Button11.Text = "Search"
         '
-        'Label66
+        'Guna2TextBox8
         '
-        Me.Label66.AutoSize = True
-        Me.Label66.BackColor = System.Drawing.Color.Transparent
-        Me.Label66.Font = New System.Drawing.Font("Segoe UI Variable Display", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.ForeColor = System.Drawing.Color.LightSlateGray
-        Me.Label66.Location = New System.Drawing.Point(26, 257)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(71, 27)
-        Me.Label66.TabIndex = 67
-        Me.Label66.Text = "Status"
-        Me.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Guna2TextBox8.BorderColor = System.Drawing.Color.LightGray
+        Me.Guna2TextBox8.BorderRadius = 10
+        Me.Guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox8.DefaultText = ""
+        Me.Guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox8.Font = New System.Drawing.Font("Segoe UI Variable Display", 8.0!)
+        Me.Guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox8.Location = New System.Drawing.Point(21, 16)
+        Me.Guna2TextBox8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Guna2TextBox8.Name = "Guna2TextBox8"
+        Me.Guna2TextBox8.PlaceholderText = "Search Appointment ID"
+        Me.Guna2TextBox8.SelectedText = ""
+        Me.Guna2TextBox8.Size = New System.Drawing.Size(409, 47)
+        Me.Guna2TextBox8.TabIndex = 61
+        '
+        'Guna2DataGridView3
+        '
+        Me.Guna2DataGridView3.AllowUserToResizeRows = False
+        DataGridViewCellStyle13.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle13.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Guna2DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        DataGridViewCellStyle14.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle14
+        Me.Guna2DataGridView3.ColumnHeadersHeight = 30
+        Me.Guna2DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.Guna2DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.appID, Me.appDate, Me.appTime, Me.appOwner, Me.appPet, Me.appType})
+        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle15.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle15.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView3.DefaultCellStyle = DataGridViewCellStyle15
+        Me.Guna2DataGridView3.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2DataGridView3.Location = New System.Drawing.Point(21, 69)
+        Me.Guna2DataGridView3.Name = "Guna2DataGridView3"
+        Me.Guna2DataGridView3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle16.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle16.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle16
+        Me.Guna2DataGridView3.RowHeadersVisible = False
+        Me.Guna2DataGridView3.RowHeadersWidth = 62
+        Me.Guna2DataGridView3.RowTemplate.Height = 28
+        Me.Guna2DataGridView3.Size = New System.Drawing.Size(741, 499)
+        Me.Guna2DataGridView3.TabIndex = 60
+        Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Guna2DataGridView3.ThemeStyle.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView3.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI Variable Display", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.Height = 30
+        Me.Guna2DataGridView3.ThemeStyle.ReadOnly = False
+        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.Height = 28
+        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2DataGridView3.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         '
         'appID
         '
@@ -2647,52 +2860,58 @@ Partial Class Homepage
         Me.appType.MinimumWidth = 8
         Me.appType.Name = "appType"
         '
-        'appStat
+        'tabPay
         '
-        Me.appStat.HeaderText = "Status"
-        Me.appStat.MinimumWidth = 8
-        Me.appStat.Name = "appStat"
+        Me.tabPay.Controls.Add(Me.Guna2DataGridView4)
+        Me.tabPay.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tabPay.Location = New System.Drawing.Point(4, 44)
+        Me.tabPay.Name = "tabPay"
+        Me.tabPay.Padding = New System.Windows.Forms.Padding(3)
+        Me.tabPay.Size = New System.Drawing.Size(1363, 607)
+        Me.tabPay.TabIndex = 5
+        Me.tabPay.Text = "Payment"
+        Me.tabPay.UseVisualStyleBackColor = True
         '
         'Guna2DataGridView4
         '
         Me.Guna2DataGridView4.AllowUserToResizeRows = False
-        DataGridViewCellStyle33.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle33.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.Guna2DataGridView4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle33
-        DataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle34.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        DataGridViewCellStyle34.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle34.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        DataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle34
+        DataGridViewCellStyle17.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle17.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        Me.Guna2DataGridView4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle17
+        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        DataGridViewCellStyle18.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
+        DataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle18
         Me.Guna2DataGridView4.ColumnHeadersHeight = 30
         Me.Guna2DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.Guna2DataGridView4.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.payID, Me.payAppID, Me.payDate, Me.payOwner, Me.payPet, Me.payProc, Me.payTotal})
-        DataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle35.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle35.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle35.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle35.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView4.DefaultCellStyle = DataGridViewCellStyle35
+        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle19.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle19.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView4.DefaultCellStyle = DataGridViewCellStyle19
         Me.Guna2DataGridView4.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView4.Location = New System.Drawing.Point(23, 25)
         Me.Guna2DataGridView4.Name = "Guna2DataGridView4"
         Me.Guna2DataGridView4.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle36.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle36.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle36.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle36.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView4.RowHeadersDefaultCellStyle = DataGridViewCellStyle36
+        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle20.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle20.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView4.RowHeadersDefaultCellStyle = DataGridViewCellStyle20
         Me.Guna2DataGridView4.RowHeadersVisible = False
         Me.Guna2DataGridView4.RowHeadersWidth = 62
         Me.Guna2DataGridView4.RowTemplate.Height = 28
@@ -2762,209 +2981,14 @@ Partial Class Homepage
         Me.payTotal.MinimumWidth = 8
         Me.payTotal.Name = "payTotal"
         '
-        'Guna2Panel8
+        'NomVcMessageBox
         '
-        Me.Guna2Panel8.BorderRadius = 15
-        Me.Guna2Panel8.Controls.Add(Me.Label67)
-        Me.Guna2Panel8.Controls.Add(Me.Label68)
-        Me.Guna2Panel8.Controls.Add(Me.Label69)
-        Me.Guna2Panel8.FillColor = System.Drawing.Color.RoyalBlue
-        Me.Guna2Panel8.Location = New System.Drawing.Point(55, 179)
-        Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.Size = New System.Drawing.Size(432, 252)
-        Me.Guna2Panel8.TabIndex = 13
-        '
-        'Label67
-        '
-        Me.Label67.AutoSize = True
-        Me.Label67.BackColor = System.Drawing.Color.Transparent
-        Me.Label67.Font = New System.Drawing.Font("Yu Gothic", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label67.Location = New System.Drawing.Point(37, 41)
-        Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(197, 36)
-        Me.Label67.TabIndex = 4
-        Me.Label67.Text = "DATE TODAY"
-        '
-        'Label68
-        '
-        Me.Label68.AutoSize = True
-        Me.Label68.BackColor = System.Drawing.Color.Transparent
-        Me.Label68.Font = New System.Drawing.Font("Segoe UI Light", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label68.Location = New System.Drawing.Point(37, 138)
-        Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(135, 36)
-        Me.Label68.TabIndex = 3
-        Me.Label68.Text = "TEXT HERE"
-        '
-        'Label69
-        '
-        Me.Label69.AutoSize = True
-        Me.Label69.BackColor = System.Drawing.Color.Transparent
-        Me.Label69.Font = New System.Drawing.Font("Segoe UI Black", 13.0!, System.Drawing.FontStyle.Bold)
-        Me.Label69.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label69.Location = New System.Drawing.Point(37, 77)
-        Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(330, 36)
-        Me.Label69.TabIndex = 3
-        Me.Label69.Text = "APPOINTMENTS TODAY"
-        '
-        'Guna2DataGridView5
-        '
-        Me.Guna2DataGridView5.AllowUserToResizeRows = False
-        DataGridViewCellStyle37.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle37.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle37.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle37.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.Guna2DataGridView5.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle37
-        DataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle38.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        DataGridViewCellStyle38.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle38.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        DataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView5.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle38
-        Me.Guna2DataGridView5.ColumnHeadersHeight = 30
-        Me.Guna2DataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.Guna2DataGridView5.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.servicePet, Me.serviceProc, Me.servicePrice})
-        DataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle39.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle39.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle39.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle39.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView5.DefaultCellStyle = DataGridViewCellStyle39
-        Me.Guna2DataGridView5.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView5.Location = New System.Drawing.Point(574, 133)
-        Me.Guna2DataGridView5.Name = "Guna2DataGridView5"
-        Me.Guna2DataGridView5.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle40.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle40.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle40.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView5.RowHeadersDefaultCellStyle = DataGridViewCellStyle40
-        Me.Guna2DataGridView5.RowHeadersVisible = False
-        Me.Guna2DataGridView5.RowHeadersWidth = 62
-        Me.Guna2DataGridView5.RowTemplate.Height = 28
-        Me.Guna2DataGridView5.Size = New System.Drawing.Size(751, 411)
-        Me.Guna2DataGridView5.TabIndex = 14
-        Me.Guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.Guna2DataGridView5.ThemeStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView5.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(116, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI Variable Display", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
-        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.Guna2DataGridView5.ThemeStyle.HeaderStyle.Height = 30
-        Me.Guna2DataGridView5.ThemeStyle.ReadOnly = False
-        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
-        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI Variable Display Semib", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black
-        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.Height = 28
-        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Guna2DataGridView5.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        '
-        'servicePet
-        '
-        Me.servicePet.HeaderText = "Pet Type"
-        Me.servicePet.MinimumWidth = 8
-        Me.servicePet.Name = "servicePet"
-        '
-        'serviceProc
-        '
-        Me.serviceProc.HeaderText = "Procedure"
-        Me.serviceProc.MinimumWidth = 8
-        Me.serviceProc.Name = "serviceProc"
-        '
-        'servicePrice
-        '
-        Me.servicePrice.HeaderText = "Price"
-        Me.servicePrice.MinimumWidth = 8
-        Me.servicePrice.Name = "servicePrice"
-        '
-        'Label70
-        '
-        Me.Label70.AutoSize = True
-        Me.Label70.BackColor = System.Drawing.Color.Transparent
-        Me.Label70.Font = New System.Drawing.Font("Segoe UI Variable Text Semibold", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Label70.Location = New System.Drawing.Point(175, 106)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(176, 30)
-        Me.Label70.TabIndex = 16
-        Me.Label70.Text = "Veterinary Clinic"
-        '
-        'Label85
-        '
-        Me.Label85.AutoSize = True
-        Me.Label85.BackColor = System.Drawing.Color.Transparent
-        Me.Label85.Font = New System.Drawing.Font("Segoe UI Variable Display", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label85.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Label85.Location = New System.Drawing.Point(115, 19)
-        Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(304, 96)
-        Me.Label85.TabIndex = 15
-        Me.Label85.Text = "NomVC"
-        '
-        'Label86
-        '
-        Me.Label86.AutoSize = True
-        Me.Label86.BackColor = System.Drawing.Color.Transparent
-        Me.Label86.Font = New System.Drawing.Font("Segoe UI Variable Text Semibold", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label86.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Label86.Location = New System.Drawing.Point(569, 85)
-        Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(190, 30)
-        Me.Label86.TabIndex = 17
-        Me.Label86.Text = "Services We Offer"
-        '
-        'Label87
-        '
-        Me.Label87.AutoSize = True
-        Me.Label87.BackColor = System.Drawing.Color.Transparent
-        Me.Label87.Font = New System.Drawing.Font("Segoe UI Variable Text Semibold", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label87.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Label87.Location = New System.Drawing.Point(175, 475)
-        Me.Label87.Name = "Label87"
-        Me.Label87.Size = New System.Drawing.Size(182, 30)
-        Me.Label87.TabIndex = 18
-        Me.Label87.Text = "Welcome, Admin"
-        '
-        'btn_Close
-        '
-        Me.btn_Close.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btn_Close.FillColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btn_Close.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Close.IconColor = System.Drawing.Color.White
-        Me.btn_Close.Location = New System.Drawing.Point(1331, 28)
-        Me.btn_Close.Name = "btn_Close"
-        Me.btn_Close.Size = New System.Drawing.Size(45, 29)
-        Me.btn_Close.TabIndex = 3
-        '
-        'Guna2ControlBox2
-        '
-        Me.Guna2ControlBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
-        Me.Guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Guna2ControlBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2ControlBox2.IconColor = System.Drawing.Color.White
-        Me.Guna2ControlBox2.Location = New System.Drawing.Point(1280, 28)
-        Me.Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Me.Guna2ControlBox2.Size = New System.Drawing.Size(45, 29)
-        Me.Guna2ControlBox2.TabIndex = 4
+        Me.NomVcMessageBox.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK
+        Me.NomVcMessageBox.Caption = Nothing
+        Me.NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.None
+        Me.NomVcMessageBox.Parent = Me
+        Me.NomVcMessageBox.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark
+        Me.NomVcMessageBox.Text = Nothing
         '
         'Homepage
         '
@@ -2980,42 +3004,43 @@ Partial Class Homepage
         Me.Text = "Homepage"
         Me.Guna2Panel1.ResumeLayout(False)
         Me.Guna2Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2TabControl1.ResumeLayout(False)
         Me.tabDashboard.ResumeLayout(False)
         Me.tabDashboard.PerformLayout()
+        CType(Me.Guna2DataGridView5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2Panel8.ResumeLayout(False)
+        Me.Guna2Panel8.PerformLayout()
         Me.tabAddRec.ResumeLayout(False)
         Me.pnlRecord.ResumeLayout(False)
         Me.pnlRecord.PerformLayout()
         CType(Me.numPetAge, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.numOwnerAge, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tabOwners.ResumeLayout(False)
-        CType(Me.tblOwners, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.tabPets.ResumeLayout(False)
         Me.Guna2Panel2.ResumeLayout(False)
         Me.grpDetailsOwner.ResumeLayout(False)
         Me.pnlDetails.ResumeLayout(False)
         Me.pnlDetails.PerformLayout()
-        CType(Me.Guna2DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.tblOwners, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tabPets.ResumeLayout(False)
         Me.Guna2GroupBox2.ResumeLayout(False)
         Me.Guna2Panel5.ResumeLayout(False)
         Me.Guna2Panel5.PerformLayout()
+        CType(Me.Guna2DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tabApps.ResumeLayout(False)
-        Me.tabPay.ResumeLayout(False)
         Me.Guna2TabControl2.ResumeLayout(False)
         Me.tabcreateApp.ResumeLayout(False)
         Me.tabcreateApp.PerformLayout()
-        Me.tabViewApp.ResumeLayout(False)
         Me.Guna2GroupBox3.ResumeLayout(False)
         Me.Guna2Panel6.ResumeLayout(False)
         Me.Guna2Panel6.PerformLayout()
-        CType(Me.Guna2DataGridView3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tabViewApp.ResumeLayout(False)
         Me.Guna2GroupBox4.ResumeLayout(False)
         Me.Guna2Panel7.ResumeLayout(False)
         Me.Guna2Panel7.PerformLayout()
+        CType(Me.Guna2DataGridView3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tabPay.ResumeLayout(False)
         CType(Me.Guna2DataGridView4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Guna2Panel8.ResumeLayout(False)
-        Me.Guna2Panel8.PerformLayout()
-        CType(Me.Guna2DataGridView5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -3154,7 +3179,6 @@ Partial Class Homepage
     Friend WithEvents Guna2Button10 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2GroupBox4 As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents Guna2Panel7 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Button12 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label71 As Label
     Friend WithEvents Label72 As Label
     Friend WithEvents Label73 As Label
@@ -3172,15 +3196,6 @@ Partial Class Homepage
     Friend WithEvents Guna2Button11 As Guna.UI2.WinForms.Guna2Button
     Private WithEvents Guna2TextBox8 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2DataGridView3 As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents Label65 As Label
-    Friend WithEvents Label66 As Label
-    Friend WithEvents appID As DataGridViewTextBoxColumn
-    Friend WithEvents appDate As DataGridViewTextBoxColumn
-    Friend WithEvents appTime As DataGridViewTextBoxColumn
-    Friend WithEvents appOwner As DataGridViewTextBoxColumn
-    Friend WithEvents appPet As DataGridViewTextBoxColumn
-    Friend WithEvents appType As DataGridViewTextBoxColumn
-    Friend WithEvents appStat As DataGridViewTextBoxColumn
     Friend WithEvents Guna2DataGridView4 As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents payID As DataGridViewTextBoxColumn
     Friend WithEvents payAppID As DataGridViewTextBoxColumn
@@ -3189,18 +3204,29 @@ Partial Class Homepage
     Friend WithEvents payPet As DataGridViewTextBoxColumn
     Friend WithEvents payProc As DataGridViewTextBoxColumn
     Friend WithEvents payTotal As DataGridViewTextBoxColumn
-    Friend WithEvents Guna2Panel8 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label67 As Label
-    Friend WithEvents Label68 As Label
-    Friend WithEvents Label69 As Label
     Friend WithEvents Guna2DataGridView5 As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents servicePet As DataGridViewTextBoxColumn
     Friend WithEvents serviceProc As DataGridViewTextBoxColumn
     Friend WithEvents servicePrice As DataGridViewTextBoxColumn
-    Friend WithEvents Label87 As Label
     Friend WithEvents Label86 As Label
     Friend WithEvents Label70 As Label
     Friend WithEvents Label85 As Label
     Friend WithEvents Guna2ControlBox2 As Guna.UI2.WinForms.Guna2ControlBox
     Friend WithEvents btn_Close As Guna.UI2.WinForms.Guna2ControlBox
+    Private WithEvents txtPetID As Guna.UI2.WinForms.Guna2TextBox
+    Private WithEvents txtOwnerID As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents appID As DataGridViewTextBoxColumn
+    Friend WithEvents appDate As DataGridViewTextBoxColumn
+    Friend WithEvents appTime As DataGridViewTextBoxColumn
+    Friend WithEvents appOwner As DataGridViewTextBoxColumn
+    Friend WithEvents appPet As DataGridViewTextBoxColumn
+    Friend WithEvents appType As DataGridViewTextBoxColumn
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label87 As Label
+    Friend WithEvents Guna2Panel8 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label67 As Label
+    Friend WithEvents Label68 As Label
+    Friend WithEvents Label69 As Label
+    Friend WithEvents chkHasOwner As CheckBox
+    Friend WithEvents NomVcMessageBox As Guna.UI2.WinForms.Guna2MessageDialog
 End Class

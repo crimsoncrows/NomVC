@@ -22,10 +22,10 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.tblService = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.type_app = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.procedure_app = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -35,13 +35,13 @@ Partial Class Form2
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Guna2Chip1 = New Guna.UI2.WinForms.Guna2Chip()
-        Me.Guna2CircleProgressBar1 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
-        Me.Guna2ContainerControl1 = New Guna.UI2.WinForms.Guna2ContainerControl()
-        Me.Guna2DateTimePicker1 = New Guna.UI2.WinForms.Guna2DateTimePicker()
-        Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2DateTimePicker1 = New Guna.UI2.WinForms.Guna2DateTimePicker()
+        Me.Guna2ContainerControl1 = New Guna.UI2.WinForms.Guna2ContainerControl()
+        Me.Guna2CircleProgressBar1 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Guna2Chip1 = New Guna.UI2.WinForms.Guna2Chip()
+        Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.tblService, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel3.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -50,43 +50,43 @@ Partial Class Form2
         'tblService
         '
         Me.tblService.AllowUserToResizeRows = False
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.tblService.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.Purple
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI Black", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Purple
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.tblService.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.tblService.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.Purple
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI Black", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Purple
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.tblService.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.tblService.ColumnHeadersHeight = 45
         Me.tblService.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.tblService.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.type_app, Me.procedure_app, Me.price_app})
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.tblService.DefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.tblService.DefaultCellStyle = DataGridViewCellStyle3
         Me.tblService.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.tblService.Location = New System.Drawing.Point(510, 79)
         Me.tblService.Name = "tblService"
         Me.tblService.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.tblService.RowHeadersDefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.tblService.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
         Me.tblService.RowHeadersVisible = False
         Me.tblService.RowHeadersWidth = 62
         Me.tblService.RowTemplate.Height = 28
@@ -196,61 +196,15 @@ Partial Class Form2
         Me.Panel1.Size = New System.Drawing.Size(1373, 738)
         Me.Panel1.TabIndex = 13
         '
-        'Label5
+        'Guna2GroupBox1
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI Black", 13.0!, System.Drawing.FontStyle.Bold)
-        Me.Label5.ForeColor = System.Drawing.Color.Purple
-        Me.Label5.Location = New System.Drawing.Point(504, 37)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(227, 36)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Services Offered"
-        '
-        'Guna2Chip1
-        '
-        Me.Guna2Chip1.Font = New System.Drawing.Font("Segoe UI", 9.5!)
-        Me.Guna2Chip1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Chip1.Location = New System.Drawing.Point(81, 452)
-        Me.Guna2Chip1.Name = "Guna2Chip1"
-        Me.Guna2Chip1.Size = New System.Drawing.Size(270, 40)
-        Me.Guna2Chip1.TabIndex = 14
-        Me.Guna2Chip1.Text = "Guna2Chip1"
-        '
-        'Guna2CircleProgressBar1
-        '
-        Me.Guna2CircleProgressBar1.FillColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(218, Byte), Integer), CType(CType(223, Byte), Integer))
-        Me.Guna2CircleProgressBar1.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Guna2CircleProgressBar1.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleProgressBar1.Location = New System.Drawing.Point(357, 383)
-        Me.Guna2CircleProgressBar1.Minimum = 0
-        Me.Guna2CircleProgressBar1.Name = "Guna2CircleProgressBar1"
-        Me.Guna2CircleProgressBar1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CircleProgressBar1.Size = New System.Drawing.Size(130, 130)
-        Me.Guna2CircleProgressBar1.TabIndex = 15
-        Me.Guna2CircleProgressBar1.Text = "Guna2CircleProgressBar1"
-        '
-        'Guna2ContainerControl1
-        '
-        Me.Guna2ContainerControl1.Location = New System.Drawing.Point(724, 313)
-        Me.Guna2ContainerControl1.Name = "Guna2ContainerControl1"
-        Me.Guna2ContainerControl1.Size = New System.Drawing.Size(200, 200)
-        Me.Guna2ContainerControl1.TabIndex = 16
-        Me.Guna2ContainerControl1.Text = "Guna2ContainerControl1"
-        '
-        'Guna2DateTimePicker1
-        '
-        Me.Guna2DateTimePicker1.Checked = True
-        Me.Guna2DateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Long]
-        Me.Guna2DateTimePicker1.Location = New System.Drawing.Point(87, 352)
-        Me.Guna2DateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        Me.Guna2DateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
-        Me.Guna2DateTimePicker1.Name = "Guna2DateTimePicker1"
-        Me.Guna2DateTimePicker1.Size = New System.Drawing.Size(200, 36)
-        Me.Guna2DateTimePicker1.TabIndex = 17
-        Me.Guna2DateTimePicker1.Value = New Date(2025, 11, 18, 14, 42, 25, 77)
+        Me.Guna2GroupBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.Guna2GroupBox1.Location = New System.Drawing.Point(598, 272)
+        Me.Guna2GroupBox1.Name = "Guna2GroupBox1"
+        Me.Guna2GroupBox1.Size = New System.Drawing.Size(300, 200)
+        Me.Guna2GroupBox1.TabIndex = 19
+        Me.Guna2GroupBox1.Text = "Guna2GroupBox1"
         '
         'Guna2GradientButton1
         '
@@ -267,15 +221,61 @@ Partial Class Form2
         Me.Guna2GradientButton1.TabIndex = 18
         Me.Guna2GradientButton1.Text = "Guna2GradientButton1"
         '
-        'Guna2GroupBox1
+        'Guna2DateTimePicker1
         '
-        Me.Guna2GroupBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
-        Me.Guna2GroupBox1.Location = New System.Drawing.Point(598, 272)
-        Me.Guna2GroupBox1.Name = "Guna2GroupBox1"
-        Me.Guna2GroupBox1.Size = New System.Drawing.Size(300, 200)
-        Me.Guna2GroupBox1.TabIndex = 19
-        Me.Guna2GroupBox1.Text = "Guna2GroupBox1"
+        Me.Guna2DateTimePicker1.Checked = True
+        Me.Guna2DateTimePicker1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Long]
+        Me.Guna2DateTimePicker1.Location = New System.Drawing.Point(87, 352)
+        Me.Guna2DateTimePicker1.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        Me.Guna2DateTimePicker1.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Me.Guna2DateTimePicker1.Name = "Guna2DateTimePicker1"
+        Me.Guna2DateTimePicker1.Size = New System.Drawing.Size(200, 36)
+        Me.Guna2DateTimePicker1.TabIndex = 17
+        Me.Guna2DateTimePicker1.Value = New Date(2025, 11, 18, 14, 42, 25, 77)
+        '
+        'Guna2ContainerControl1
+        '
+        Me.Guna2ContainerControl1.Location = New System.Drawing.Point(724, 313)
+        Me.Guna2ContainerControl1.Name = "Guna2ContainerControl1"
+        Me.Guna2ContainerControl1.Size = New System.Drawing.Size(200, 200)
+        Me.Guna2ContainerControl1.TabIndex = 16
+        Me.Guna2ContainerControl1.Text = "Guna2ContainerControl1"
+        '
+        'Guna2CircleProgressBar1
+        '
+        Me.Guna2CircleProgressBar1.FillColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(218, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.Guna2CircleProgressBar1.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Guna2CircleProgressBar1.ForeColor = System.Drawing.Color.White
+        Me.Guna2CircleProgressBar1.Location = New System.Drawing.Point(357, 383)
+        Me.Guna2CircleProgressBar1.Minimum = 0
+        Me.Guna2CircleProgressBar1.Name = "Guna2CircleProgressBar1"
+        Me.Guna2CircleProgressBar1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar1.Size = New System.Drawing.Size(130, 130)
+        Me.Guna2CircleProgressBar1.TabIndex = 15
+        Me.Guna2CircleProgressBar1.Text = "Guna2CircleProgressBar1"
+        '
+        'Guna2Chip1
+        '
+        Me.Guna2Chip1.Font = New System.Drawing.Font("Segoe UI", 9.5!)
+        Me.Guna2Chip1.ForeColor = System.Drawing.Color.White
+        Me.Guna2Chip1.Location = New System.Drawing.Point(70, 451)
+        Me.Guna2Chip1.Name = "Guna2Chip1"
+        Me.Guna2Chip1.Size = New System.Drawing.Size(246, 40)
+        Me.Guna2Chip1.TabIndex = 14
+        Me.Guna2Chip1.Text = "Guna2Chip1"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI Black", 13.0!, System.Drawing.FontStyle.Bold)
+        Me.Label5.ForeColor = System.Drawing.Color.Purple
+        Me.Label5.Location = New System.Drawing.Point(504, 37)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(227, 36)
+        Me.Label5.TabIndex = 4
+        Me.Label5.Text = "Services Offered"
         '
         'Form2
         '
