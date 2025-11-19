@@ -1,6 +1,6 @@
 Important:
 This project uses Guna.UI2 WinForms, installed through NuGet Package Manager. We installed this because we want the program to have organized, few functional forms. This helped us save time in coding. For the application to load correctly and avoid designer errors, the solution must be opened properly using the steps below.
-Clone (https://github.com/crimsoncrows/NomVC) or extract the project folder attached.
+Clone LatestUpdate branch (https://github.com/crimsoncrows/NomVC) or extract the project folder.
 
 
 Open the .sln (Solution) file using Visual Studio 2022 or later.
