@@ -85,10 +85,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes %28discard if unused%29\Appointments.vb" />
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Form1.vb" />
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
@@ -128,9 +125,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Classes %28discard if unused%29\Owner.vb" />
-    <Compile Include="Classes %28discard if unused%29\Payment.vb" />
-    <Compile Include="Classes %28discard if unused%29\Pet.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">

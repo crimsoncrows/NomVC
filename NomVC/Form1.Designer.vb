@@ -23,7 +23,6 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -34,15 +33,6 @@ Partial Class Form1
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Guna2BorderlessForm1
-        '
-        Me.Guna2BorderlessForm1.BorderRadius = 20
-        Me.Guna2BorderlessForm1.ContainerControl = Me
-        Me.Guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6R
-        Me.Guna2BorderlessForm1.DragStartTransparencyValue = 1.0R
-        Me.Guna2BorderlessForm1.HasFormShadow = False
-        Me.Guna2BorderlessForm1.TransparentWhileDrag = True
         '
         'Label1
         '
@@ -144,8 +134,6 @@ Partial Class Form1
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Guna2BorderlessForm1 As Guna.UI2.WinForms.Guna2BorderlessForm
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents Guna2ProgressBar1 As Guna.UI2.WinForms.Guna2ProgressBar

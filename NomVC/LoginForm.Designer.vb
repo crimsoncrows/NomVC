@@ -23,7 +23,6 @@ Partial Class LoginForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
         Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
@@ -36,13 +35,6 @@ Partial Class LoginForm
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Guna2BorderlessForm1
-        '
-        Me.Guna2BorderlessForm1.BorderRadius = 20
-        Me.Guna2BorderlessForm1.ContainerControl = Me
-        Me.Guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6R
-        Me.Guna2BorderlessForm1.TransparentWhileDrag = True
         '
         'Guna2TextBox1
         '
@@ -183,8 +175,6 @@ Partial Class LoginForm
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Guna2BorderlessForm1 As Guna.UI2.WinForms.Guna2BorderlessForm
     Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
     Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox

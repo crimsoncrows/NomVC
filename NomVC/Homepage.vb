@@ -47,7 +47,7 @@ Public Class Homepage
 
                 tblPets.Rows.Add(fields(0), fields(1), fields(5), fields(6), fields(7), fields(8))
 
-
+                'display only based on the table columns'
                 '0 = PetID
                 '1 = PetName
                 '2 = Age
@@ -176,7 +176,8 @@ Public Class Homepage
                                                     "..\..\Resources\Text Files\NomVC_Pets.txt")
 
                     IO.File.AppendAllText(petFile, petDetails & Environment.NewLine)
-
+                    NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Information
+                    NomVcMessageBox.Show("Pet assigned to owner.", "Pet Added")
                     tblPets.Rows.Clear()
                     loadPet()
                 Else
@@ -232,6 +233,8 @@ Public Class Homepage
     End Sub
 
     Private Sub btnSearchPet_Click(sender As Object, e As EventArgs) Handles btnSearchPet.Click
+
+
         Dim found As Boolean = False
 
         For i As Integer = 0 To tblPets.Rows.Count - 1
@@ -365,6 +368,10 @@ Public Class Homepage
     End Sub
 
     Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
+
+    End Sub
+
+    Private Sub Guna2Button8_Click(sender As Object, e As EventArgs) Handles Guna2Button8.Click
 
     End Sub
 End Class
