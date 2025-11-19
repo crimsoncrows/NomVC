@@ -9,13 +9,19 @@ Public Class Homepage
 
     Private Sub Homepage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        loadOwner()
 
+        'displays all txt file lines upon loading'
+        loadOwner()
+        loadPet()
+        loadAppointment()
+        loadPayments()
 
 
 
     End Sub
 
+
+    'change >= to number of attributes needed, then add to the designated table'
     Public Sub loadOwner()
         Dim loadOwnerTbl As String = IO.Path.Combine(Application.StartupPath, "..\..\Resources\Text Files\NomVC_owners.txt")
         Dim ownerInfos As String() = IO.File.ReadAllLines(loadOwnerTbl)
@@ -27,6 +33,38 @@ Public Class Homepage
         Next
     End Sub
 
+    Public Sub loadPet()
+        Dim loadPetTbl As String = IO.Path.Combine(Application.StartupPath, "..\..\Resources\Text Files\NomVC_Pets.txt")
+        Dim petInfos As String() = IO.File.ReadAllLines(loadPetTbl)
+        For Each line As String In petInfos
+            Dim fields As String() = line.Split("|"c)
+            If fields.Length >= 0 Then
+
+            End If
+        Next
+    End Sub
+
+    Public Sub loadAppointment()
+        Dim loadAppTbl As String = IO.Path.Combine(Application.StartupPath, "..\..\Resources\Text Files\NomVC_appointments.txt")
+        Dim appointmentInfos As String() = IO.File.ReadAllLines(loadAppTbl)
+        For Each line As String In appointmentInfos
+            Dim fields As String() = line.Split("|"c)
+            If fields.Length >= 0 Then
+
+            End If
+        Next
+    End Sub
+
+    Public Sub loadPayments()
+        Dim loadPaymentTbl As String = IO.Path.Combine(Application.StartupPath, "..\..\Resources\Text Files\NomVC_payments.txt")
+        Dim paymentInfos As String() = IO.File.ReadAllLines(loadPaymentTbl)
+        For Each line As String In paymentInfos
+            Dim fields As String() = line.Split("|"c)
+            If fields.Length >= 0 Then
+
+            End If
+        Next
+    End Sub
 
 
 
@@ -61,6 +99,10 @@ Public Class Homepage
 
     Private Sub btnAddRec_Click(sender As Object, e As EventArgs) Handles btnAddRec.Click
 
+
+        'detects if there is a duplicate id, will not add to table/txtfile'
+        'used to avoid conflict with pets'
+
         Dim regex1 As New Regex("^[0-9+\-()\s]+$")
         If regex1.IsMatch(txtOwnerID.Text) Then
 
@@ -70,8 +112,9 @@ Public Class Homepage
                 If tblOwners.Rows(i).Cells(0).Value IsNot Nothing AndAlso
                  tblOwners.Rows(i).Cells(0).Value.ToString() = txtOwnerID.Text Then
 
-                    MessageBox.Show("Same owner id found: " &
-                            tblOwners.Rows(i).Cells(1).Value.ToString())
+                    NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Warning
+                    NomVcMessageBox.Show("A pet owner already has that ID:" &
+                    tblOwners.Rows(i).Cells(1).Value.ToString(), "Duplicate ID Detected")
                     tblOwners.CurrentCell = tblOwners.Rows(i).Cells(0)
                     found = True
                     Exit For
@@ -112,7 +155,31 @@ Public Class Homepage
 
     Private Sub btnSearchOwner_Click(sender As Object, e As EventArgs) Handles btnSearchOwner.Click
 
+        Dim found As Boolean = False
+
+        For i As Integer = 0 To tblOwners.Rows.Count - 1
+
+            If tblOwners.Rows(i).Cells(0).Value IsNot Nothing AndAlso tblOwners.Rows(i).Cells(0).Value.ToString() = txtSearchOwner.Text Then
+                NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Information
+                NomVcMessageBox.Show("Owner found: " & tblOwners.Rows(i).Cells(1).Value.ToString(), "Found")
+                tblOwners.CurrentCell = tblOwners.Rows(i).Cells(0)
+                found = True
+                Exit For
+            End If
+        Next
+
+        If Not found Then
+            NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.[Error]
+            NomVcMessageBox.Show("Owner not found", "Oops...")
+        End If
     End Sub
+
+
+
+
+
+
+
 
     Private Sub Guna2TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtPetID.TextChanged
 
@@ -137,7 +204,7 @@ Public Class Homepage
             cmbSex.Visible = True
             lblSex.Visible = True
             lblAgeO.Visible = True
-            numOwnerAge.Visible = False
+            numOwnerAge.Visible = True
 
         End If
 
