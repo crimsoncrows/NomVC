@@ -1,4 +1,6 @@
 ﻿Public Class Pet
+    Inherits Owner
+
     Private strName As String
     Private intAge As Integer
     Private dtBirthday As Date
@@ -33,6 +35,11 @@
         strType = type
         strVaccineStatus = vaccineStatus
         dtNextVisit = nextVisit
+    End Sub
+
+
+    Public Sub setOwner()
+
     End Sub
 
     Public Function getName() As String
