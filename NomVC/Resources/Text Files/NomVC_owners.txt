@@ -1,5 +1,2 @@
-0001|SQUID|3|Female|USA
-0002|SQUID|5|Female|USA
-003|MUSHROOM|4|Male|JAPAN
-00034|MUSHROOM|4|Male|JAPAN
-00011|MEOW|0|Male|QATAR
+001|Kei To|40|Female|Tarlac
+1022|Kei Kei To|6|Female|Philippines

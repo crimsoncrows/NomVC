@@ -1,8 +1,11 @@
 ﻿Imports System.IO
 Imports System.Text.RegularExpressions
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports Guna.UI2.WinForms
 
 Public Class Homepage
+
+    'pakichange nalang startup form sa settings -from homepage to splash screen loading '
     Private Sub services_tbl_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
 
     End Sub
@@ -29,6 +32,8 @@ Public Class Homepage
             Dim fields As String() = line.Split("|"c)
             If fields.Length >= 5 Then
                 tblOwners.Rows.Add(fields(0), fields(1), fields(2), fields(3), fields(4))
+                '0,1,2,3... puts values to columns, only add whats needed (0 for ID, 1 for name, and so on...)'
+
             End If
         Next
     End Sub
@@ -38,7 +43,24 @@ Public Class Homepage
         Dim petInfos As String() = IO.File.ReadAllLines(loadPetTbl)
         For Each line As String In petInfos
             Dim fields As String() = line.Split("|"c)
-            If fields.Length >= 0 Then
+            If fields.Length >= 6 Then
+
+                tblPets.Rows.Add(fields(0), fields(1), fields(5), fields(6), fields(7), fields(8))
+
+
+                '0 = PetID
+                '1 = PetName
+                '2 = Age
+                '3 = Birthdate
+                '4 = Weight
+                '5 = Type
+                '6 = Vaccine
+                '7 = VisitSchedule
+                '8= Owner name
+
+
+
+
 
             End If
         Next
@@ -97,58 +119,76 @@ Public Class Homepage
         Application.Exit()
     End Sub
 
-    Private Sub btnAddRec_Click(sender As Object, e As EventArgs) Handles btnAddRec.Click
-
-
-        'detects if there is a duplicate id, will not add to table/txtfile'
-        'used to avoid conflict with pets'
+    Private Sub btnAddRec_Click(sender As Object, e As EventArgs) Handles btnAddRecPet.Click
 
         Dim regex1 As New Regex("^[0-9+\-()\s]+$")
-        If regex1.IsMatch(txtOwnerID.Text) Then
 
-            Dim found As Boolean = False
+        If regex1.IsMatch(txtPetID.Text) Then
 
-            For i As Integer = 0 To tblOwners.Rows.Count - 1
-                If tblOwners.Rows(i).Cells(0).Value IsNot Nothing AndAlso
-                 tblOwners.Rows(i).Cells(0).Value.ToString() = txtOwnerID.Text Then
+            Dim duplicateFound As Boolean = False
+
+            For i As Integer = 0 To tblPets.Rows.Count - 1
+                If tblPets.Rows(i).Cells(0).Value IsNot Nothing AndAlso
+           tblPets.Rows(i).Cells(0).Value.ToString() = txtPetID.Text Then
 
                     NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Warning
-                    NomVcMessageBox.Show("A pet owner already has that ID:" &
-                    tblOwners.Rows(i).Cells(1).Value.ToString(), "Duplicate ID Detected")
-                    tblOwners.CurrentCell = tblOwners.Rows(i).Cells(0)
-                    found = True
+                    NomVcMessageBox.Show("A pet already has that ID: " &
+                                  tblPets.Rows(i).Cells(1).Value.ToString(),
+                                  "Duplicate Pet ID Detected")
+
+                    tblPets.CurrentCell = tblPets.Rows(i).Cells(0)
+                    duplicateFound = True
                     Exit For
                 End If
             Next
 
-            If Not found Then
-                Dim ownerDetails As String = txtOwnerID.Text + "|" + txtOwnerName.Text + "|" + numOwnerAge.Value.ToString + "|" + cmbSex.Text + "|" + txtAddress.Text
-                'READS AND WRITES DIRECTLY TO SOLUTION EXPLORER FILE, NOT LOCALLY STORED FILE (WILL CAUSE ERROR)'
-                Dim projectFilePath As String = IO.Path.Combine(Application.StartupPath, "..\..\Resources\Text Files\NomVC_owners.txt")
-                IO.File.AppendAllText(projectFilePath, ownerDetails & Environment.NewLine)
-                tblOwners.Rows.Clear()
-                loadOwner()
+            If Not duplicateFound Then
+                Dim ownerFound As Boolean = False
+                Dim ownerName As String
+
+                For i As Integer = 0 To tblOwners.Rows.Count - 1
+                    If tblOwners.Rows(i).Cells(0).Value IsNot Nothing AndAlso
+               tblOwners.Rows(i).Cells(1).Value.ToString() = txtCurrentOwner.Text Then
+
+                        ownerFound = True
+                        ownerName = tblOwners.Rows(i).Cells(1).Value.ToString()
+                        Exit For
+                    End If
+                Next
+
+                If ownerFound Then
+                    ' VISIT SCHEDULE
+                    Dim visitSchedule As String = If(chkNoVisit.Checked, "None", dtpVisit.Value.ToShortDateString())
+
+                    ' PET DETAILS
+                    Dim petDetails As String =
+                txtPetID.Text + "|" +
+                txtPetName.Text + "|" +
+                numPetAge.Value.ToString() + "|" +
+                dtpBirthdate.Text + "|" +
+                txtWeight.Text + "|" +
+                cmbType.SelectedItem.ToString() + "|" +
+                cmbVaccine.SelectedItem.ToString() + "|" +
+                visitSchedule + "|" +
+                ownerName
+
+                    Dim petFile As String = IO.Path.Combine(Application.StartupPath,
+                                                    "..\..\Resources\Text Files\NomVC_Pets.txt")
+
+                    IO.File.AppendAllText(petFile, petDetails & Environment.NewLine)
+
+                    tblPets.Rows.Clear()
+                    loadPet()
+                Else
+                    NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error
+                    NomVcMessageBox.Show("Owner not found in the system. Please enter a valid owner.", "Error")
+                End If
             End If
 
         Else
             NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error
-            NomVcMessageBox.Show("Invalid input or empty fields.", "Error")
+            NomVcMessageBox.Show("Invalid Pet ID format.", "Error")
         End If
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     End Sub
@@ -185,28 +225,146 @@ Public Class Homepage
 
     End Sub
 
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles chkHasOwner.CheckedChanged
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs)
 
-        'avoid duplicate owner entries'
-        If chkHasOwner.Checked = True Then
 
-            txtAddress.Visible = False
-            txtOwnerName.Visible = False
-            numOwnerAge.Visible = False
-            cmbSex.Visible = False
-            lblSex.Visible = False
-            lblAgeO.Visible = False
+
+    End Sub
+
+    Private Sub btnSearchPet_Click(sender As Object, e As EventArgs) Handles btnSearchPet.Click
+        Dim found As Boolean = False
+
+        For i As Integer = 0 To tblPets.Rows.Count - 1
+
+            If tblPets.Rows(i).Cells(0).Value IsNot Nothing AndAlso tblPets.Rows(i).Cells(0).Value.ToString() = txtSearchPet.Text Then
+                NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Information
+                NomVcMessageBox.Show("Pet found: " & tblPets.Rows(i).Cells(1).Value.ToString(), "Found")
+                tblPets.CurrentCell = tblPets.Rows(i).Cells(0)
+                found = True
+                Exit For
+            End If
+        Next
+
+        If Not found Then
+            NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.[Error]
+            NomVcMessageBox.Show("Pet not found", "Oops...")
+        End If
+
+    End Sub
+
+    Private Sub Guna2TextBox5_TextChanged_1(sender As Object, e As EventArgs) Handles Guna2TextBox5.TextChanged
+
+    End Sub
+
+    Private Sub tabDashboard_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub chkNoVisit_CheckedChanged(sender As Object, e As EventArgs) Handles chkNoVisit.CheckedChanged
+
+        If chkNoVisit.Checked = True Then
+            dtpVisit.Enabled = False
+        Else
+            dtpVisit.Enabled = True
+
+        End If
+
+    End Sub
+
+    Private Sub Guna2Button1_Click_1(sender As Object, e As EventArgs)
+
+        'Detect duplicate ID
+        Dim regex1 As New Regex("^[0-9+\-()\s]+$")
+
+        If regex1.IsMatch(txtOwnerID.Text) Then
+
+            Dim duplicateFound As Boolean = False
+
+            'CHECK IF OWNER ID ALREADY EXISTS
+            For i As Integer = 0 To tblOwners.Rows.Count - 1
+                If tblOwners.Rows(i).Cells(0).Value IsNot Nothing AndAlso
+           tblOwners.Rows(i).Cells(0).Value.ToString() = txtOwnerID.Text Then
+
+                    NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Warning
+                    NomVcMessageBox.Show("A pet owner already has that ID: " +
+                                  tblOwners.Rows(i).Cells(1).Value.ToString(),
+                                  "Duplicate ID Detected")
+
+                    tblOwners.CurrentCell = tblOwners.Rows(i).Cells(0)
+                    duplicateFound = True
+                    Exit For
+                End If
+            Next
+
+            If Not duplicateFound Then
+                ' OWNER DETAILS
+                Dim ownerDetails As String =
+            txtOwnerID.Text + "|" +
+            txtOwnerName.Text + "|" +
+            numOwnerAge.Value.ToString() + "|" +
+            cmbSex.Text + "|" +
+            txtAddress.Text
+
+                Dim ownerFile As String =
+            IO.Path.Combine(Application.StartupPath,
+            "..\..\Resources\Text Files\NomVC_owners.txt")
+
+                IO.File.AppendAllText(ownerFile, ownerDetails & Environment.NewLine)
+
+                tblOwners.Rows.Clear()
+                loadOwner()
+            End If
 
         Else
 
-            txtAddress.Visible = True
-            txtOwnerName.Visible = True
-            cmbSex.Visible = True
-            lblSex.Visible = True
-            lblAgeO.Visible = True
-            numOwnerAge.Visible = True
-
+            NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error
+            NomVcMessageBox.Show("Invalid ID format.", "Error")
         End If
+
+
+    End Sub
+
+    Private Sub txtCurrentOwner_TextChanged(sender As Object, e As EventArgs) Handles txtCurrentOwner.TextChanged
+
+    End Sub
+
+    Private Sub btnAddRecOwner_Click(sender As Object, e As EventArgs) Handles btnAddRecOwner.Click
+        Dim regex1 As New Regex("^[0-9+\-()\s]+$")
+        If regex1.IsMatch(txtOwnerID.Text) Then
+
+            Dim found As Boolean = False
+
+            For i As Integer = 0 To tblOwners.Rows.Count - 1
+                If tblOwners.Rows(i).Cells(0).Value IsNot Nothing AndAlso
+                 tblOwners.Rows(i).Cells(0).Value.ToString() = txtOwnerID.Text Then
+
+                    NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Warning
+                    NomVcMessageBox.Show("A pet owner already has that ID:" &
+                    tblOwners.Rows(i).Cells(1).Value.ToString(), "Duplicate ID Detected")
+                    tblOwners.CurrentCell = tblOwners.Rows(i).Cells(0)
+                    found = True
+                    Exit For
+                End If
+            Next
+
+            If Not found Then
+                Dim ownerDetails As String = txtOwnerID.Text + "|" + txtOwnerName.Text + "|" + numOwnerAge.Value.ToString + "|" + cmbSex.Text + "|" + txtAddress.Text
+                'READS AND WRITES DIRECTLY TO SOLUTION EXPLORER FILE, NOT LOCALLY STORED FILE (WILL CAUSE ERROR)'
+                Dim projectFilePath As String = IO.Path.Combine(Application.StartupPath, "..\..\Resources\Text Files\NomVC_owners.txt")
+                IO.File.AppendAllText(projectFilePath, ownerDetails & Environment.NewLine)
+                tblOwners.Rows.Clear()
+                loadOwner()
+            End If
+
+        Else
+            NomVcMessageBox.Icon = Guna.UI2.WinForms.MessageDialogIcon.Error
+            NomVcMessageBox.Show("Invalid input or empty fields.", "Error")
+        End If
+
+
+    End Sub
+
+    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
 
     End Sub
 End Class
