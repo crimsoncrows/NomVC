@@ -6,7 +6,7 @@ Clone LatestUpdate branch (https://github.com/crimsoncrows/NomVC) or extract the
 Open the .sln (Solution) file using Visual Studio 2022 or later.
 
 
-You might see an error displayed, this is because the solution wasn’t built yet. Do not ignore and continue as the design will vanish completely. Before opening any form in Design View:
+You might see an error displayed, this is because the solution wasn’t built yet. Do not click ignore and continue as the design will vanish completely. Before opening any form in Design View:
 
 
 Go to
